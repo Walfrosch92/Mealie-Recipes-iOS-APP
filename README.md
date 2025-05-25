@@ -67,7 +67,7 @@ Whether you're a Swift developer or just love Mealie – your feedback and suppo
 ## Roadmap
 
 - [ ] Offline mode  
-- [ ] Caching for recipes and shopping list  
+- [x] Caching for recipes and shopping list  
 - [x] **Recipe upload support** (Text, Image & URL – powered by OpenAI)  
 - [x] Multi-language support (German & English)
 
@@ -75,7 +75,7 @@ Whether you're a Swift developer or just love Mealie – your feedback and suppo
 
 ## Requirements
 
-- iOS 16+  
+- iOS 17+  
 - A running Mealie server (tested with API v2.8.0)
 
 ---
