@@ -66,7 +66,7 @@ Whether you're a Swift developer or just love Mealie – your feedback and suppo
 
 ## Roadmap
 
-- [ ] Android App
+- [ ] Android App (Built with Flutter)
 - [x] Caching for recipes and shopping list  
 - [x] **Recipe upload support** (Image & URL – powered by OpenAI)  
 - [x] Multi-language support (German, English, Spain, French & Dutch)
