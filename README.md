@@ -19,14 +19,16 @@ If you like this project, consider [supporting the developer on Buy Me a Coffee]
 ### Setup
 - Configure your Mealie server URL, API token, and optional custom headers.
 - Quick access to recipes, shopping list, archived lists, and settings.
-- Multi-language support (English & German).
+- Multi-language support (English, German, Spain, French & Dutch).
 
 ### Recipes
 - Browse all recipes from your Mealie server.
 - View and check off ingredients and preparation steps.
 - Add ingredients (individually or all) to the shopping list.
-- **Built-in Timer**: Start, modify, or cancel timers with audible alerts.
+- **Built-in Timer**: Start, modify, or cancel timers with audible alerts. + Timer is focused all the time 
 - **Ingredient Scaling**: Instantly view 0.5x, 1x, 2x, or 3x ingredient quantities.
+- Edit your Recipe & Update the Recipe Image
+- Delete Recipes
 
 ### Recipe Upload
 - Upload new recipes to Mealie via Image or URL.
@@ -45,15 +47,13 @@ If you like this project, consider [supporting the developer on Buy Me a Coffee]
 
 ## Screenshots
 
-![IMG_0658](https://github.com/user-attachments/assets/7bc8224f-9fab-4c9d-a52b-a2fd5d7d6553)  
-![IMG_0659](https://github.com/user-attachments/assets/24b6a472-652b-437f-b0eb-c8739ef2a031)  
-![IMG_0660](https://github.com/user-attachments/assets/a9d93e50-10e5-48e1-b271-3fe8b4b7a8b4)  
-![IMG_0661](https://github.com/user-attachments/assets/b67e8870-1c5d-43ff-978e-f1eca8bd422a)  
-![IMG_0662](https://github.com/user-attachments/assets/afea89fe-fb49-4481-9cbe-29cb359bd633)  
-![IMG_0663](https://github.com/user-attachments/assets/a31ba44f-0a72-4220-bf7a-ee23273d8dee)  
-![IMG_0666](https://github.com/user-attachments/assets/a9ed0310-97fc-4afd-9b93-5b0ccc03dc45)  
-![IMG_0665](https://github.com/user-attachments/assets/bf286227-91f5-4ad5-b192-c1ef213260f0)  
-![IMG_0664](https://github.com/user-attachments/assets/529ef002-8cea-4ce9-abdb-8c76524b9895)
+![0x0ss](https://github.com/user-attachments/assets/fe5a428a-31e6-4576-91de-38c4ff53ba08)
+![0x0ss-2](https://github.com/user-attachments/assets/c312dfb4-4e0c-4fc1-b4c9-e78f5d20793b)
+![0x0ss-3](https://github.com/user-attachments/assets/7337c6dd-f2b0-42d2-9283-36ad18c74132)
+![0x0ss-4](https://github.com/user-attachments/assets/9a7f0ec0-5ecf-40fe-b43e-52b7a64d7778)
+![0x0ss-5](https://github.com/user-attachments/assets/50be5596-ed02-412d-a2de-720944b111c8)
+![0x0ss-6](https://github.com/user-attachments/assets/4fb04a63-9568-4241-b4ad-0718b4392987)
+
 
 ---
 
@@ -66,10 +66,13 @@ Whether you're a Swift developer or just love Mealie – your feedback and suppo
 
 ## Roadmap
 
-- [ ] Offline mode  
+- [ ] Android App
 - [x] Caching for recipes and shopping list  
-- [x] **Recipe upload support** (Text, Image & URL – powered by OpenAI)  
-- [x] Multi-language support (German & English)
+- [x] **Recipe upload support** (Image & URL – powered by OpenAI)  
+- [x] Multi-language support (German, English, Spain, French & Dutch)
+- [x] Edit Recipes
+- [x] Sync Labels & Categories
+- [x] Sync Mealplanner
 
 ---
 
