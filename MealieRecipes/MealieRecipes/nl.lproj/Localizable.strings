@@ -1,0 +1,365 @@
+/*
+  Localizable.strings (Dutch)
+  MealieRecipes - Volledige lokalisatie
+  Gemaakt: 05-12-2025
+  Bevat alle keys uit eerdere versies
+*/
+
+// MARK: - Navigatie & Algemeen
+"initial_setup" = "Initiele installatie";
+"settings" = "⚙️ Instellingen";
+"cancel" = "Annuleren";
+"done" = "Klaar";
+"ok" = "OK";
+"save" = "Opslaan";
+"save_and_start" = "Opslaan & Starten";
+"save_changes" = "Wijzigingen opslaan";
+"reset_app" = "App resetten";
+"reset" = "Resetten";
+"confirm" = "Bevestigen";
+"back" = "Terug";
+"close" = "Sluiten";
+"edit" = "Bewerken";
+"delete" = "Verwijderen";
+"start" = "Start";
+"change" = "Wijzigen";
+"apply" = "Toepassen";
+"minimize" = "Minimaliseren";
+"home" = "Start";
+"select_option" = "Kies een optie:";
+"all" = "Alle";
+"plan_meal" = "Plannen";
+"continue" = "Doorgaan";
+"loading" = "Laden...";
+"please_wait" = "Even geduld...";
+"share" = "Delen";
+"copy" = "Kopiëren";
+"add" = "Toevoegen";
+"remove" = "Verwijderen";
+"retry" = "Opnieuw proberen";
+"dismiss" = "Sluiten";
+"select_all" = "Alles selecteren";
+"deselect_all" = "Selectie opheffen";
+
+// MARK: - Installatie & Configuratie
+"send_optional_headers" = "Optionele headers versturen";
+"language" = "Taal";
+"confirm_reset" = "App resetten?";
+"reset_warning" = "Dit reset alle instellingen. Doorgaan?";
+"app_logo" = "App-logo";
+"show_recipe_images" = "Receptafbeeldingen tonen?";
+"show_recipe_images_description" = "Toont afbeeldingen in de receptenlijst";
+"enable_logging" = "Logging inschakelen";
+"enable_logging_description" = "Slaat de laatste 500 logregels lokaal op";
+"icon_switch_not_supported" = "Icon-wisseling niet ondersteund";
+"icon_switch_failed" = "Icon-wisseling mislukt";
+"icon_switched_to" = "Icon gewijzigd naar";
+"standard_icon" = "Standaard";
+"welcome_subtitle" = "Verbind met je Mealie Server";
+"server_url_placeholder" = "https://mealie.example.com";
+"token_placeholder" = "Je API-token";
+"household_placeholder" = "Familie";
+"api_version_label" = "Mealie API-versie";
+"header_name_placeholder" = "Naam";
+"header_value_placeholder" = "Waarde";
+"file_size" = "Bestandsgrootte";
+"connection" = "Verbinding";
+"advanced_options" = "Geavanceerde opties";
+"personalization" = "Personalisatie";
+"developer" = "Ontwikkelaar";
+
+// MARK: - Logging
+"log_file_section" = "Logbestand (laatste 500 regels)";
+"log_entries" = "Invoeren";
+"log_last_500" = "Laatste 500";
+"log_empty" = "Leeg";
+"log_show" = "Tonen";
+"log_share" = "Delen";
+"log_clear" = "Wissen";
+"log_show_title" = "Logs (laatste 500)";
+"log_copy" = "Kopiëren";
+"log_close" = "Sluiten";
+"log_cleared" = "Logs gewist";
+"log_cleared_message" = "Alle logvermeldingen zijn verwijderd.";
+
+// MARK: - Hoofdnavigatie
+"show_recipes" = "📖 Recepten tonen";
+"shopping_list" = "🛒 Boodschappenlijst";
+"archived_lists" = "🗂️ Gearchiveerde lijsten";
+"recipes" = "📖 Recepten";
+"meal_plan" = "📅 Maaltijdplanning";
+"leftover.title" = "🥘 Restjes Benutten";
+"section_shopping" = "Boodschappen";
+"section_planning" = "Planning";
+"section_recipes" = "Recepten";
+"section_other" = "Overig";
+
+// MARK: - Welkom & Laden
+"welcome_title" = "Welkom bij Mealie Recipes! 👋";
+"loading_shopping_list_id" = "Boodschappenlijst laden...";
+"loading_recipes" = "Recepten laden...";
+"loading_recipe" = "Recept laden...";
+"no_lists_loaded" = "Geen lijst geladen";
+
+// MARK: - Foutmeldingen
+"error" = "Fout";
+"success" = "Succes";
+"error_loading_recipes" = "Fout: %@";
+"error_loading_recipe" = "Kon recept niet laden.";
+"invalid_recipe_id" = "Ongeldig recept-ID";
+"upload_error" = "Fout";
+"upload_http_error" = "Bestandsupload mislukt met statuscode %d";
+"error_invalid_json" = "Ongeldige JSON-inhoud";
+"error_payload_encoding" = "Fout bij coderen van data";
+"error_image_conversion" = "Afbeeldingconversie mislukt";
+"error_upload_failed" = "Upload mislukt";
+"error_image_upload_failed" = "Afbeelding-upload mislukt";
+"error_missing_base_url" = "Server-URL of token ontbreekt.";
+"error_invalid_shopping_list_id" = "Ongeldig boodschappenlijst-ID.";
+"leftover.invalid_recipe_id" = "Ongeldig recept-ID";
+"saveErrorTitle" = "Fout";
+"saveErrorMessage" = "Er is een fout opgetreden bij het opslaan.";
+"validationError" = "Validatiefout";
+"errorEmptyTitle" = "Voer een titel in";
+"errorNoIngredients" = "Voeg minimaal één ingrediënt toe";
+"errorNoInstructions" = "Voeg minimaal één stap toe";
+"errorEmptyInstructions" = "Sommige stappen zijn leeg. Vul ze in of verwijder de lege.";
+"noInternetConnection" = "Geen internetverbinding. Controleer uw netwerkinstellingen.";
+"uploadTimeout" = "Upload-timeout. Probeer het opnieuw.";
+"reminders_access_denied" = "Geen toegang tot Herinneringen. Sta toegang toe in Instellingen.";
+"reminders_calendar_not_found" = "De geselecteerde herinneringenlijst kon niet worden gevonden.";
+"postimport_failed_generic" = "Nabewerking van herinneringen mislukt voor sommige items.";
+"sync_alert_title" = "Offline wijzigingen gedetecteerd";
+"sync_alert_message" = "Wil je de boodschappenlijstwijzigingen nu met de server synchroniseren?";
+
+// MARK: - Timer
+"timer_title" = "Timer";
+"duration" = "Duur: %d minuten";
+"new_duration" = "Nieuwe duur: %d minuten";
+"remaining_time" = "%d minuten %d seconden resterend";
+"display_always_on" = "Scherm aan laten";
+"start_timer" = "Timer starten";
+"running_timer" = "Timer loopt: %dm %ds";
+"timer_finished" = "Timer beëindigd";
+"timer_live_activity_title" = "Recept Timer";
+"timer_remaining_time" = "Resterende Tijd";
+"timer_completed" = "Timer verstreken!";
+"timer_recipe_timer" = "Recept Timer";
+
+// MARK: - Boodschappenlijst
+"select_shopping_list" = "Boodschappenlijst selecteren";
+"unlabeled_category" = "Ongecategoriseerd";
+"add_success" = "Toegevoegd ✅";
+"list_done_title" = "Lijst voltooid 🎉";
+"list_done_message" = "De boodschappenlijst is gearchiveerd.";
+"complete_shopping_confirm" = "Bevestigen";
+"completed_category_title" = "Voltooid";
+"add_item_placeholder" = "Nieuw item…";
+"complete_shopping" = "Boodschappen afronden";
+"shopping_done_title" = "Boodschappen afgerond";
+"shopping_done_subtitle" = "Alles in de wagen! 🎉";
+"change_category" = "Categorie wijzigen";
+"select_category" = "Categorie selecteren";
+"delete_item_title" = "Item verwijderen";
+"delete_item_confirm" = "Wil je dit item echt verwijderen?";
+"note_saved" = "Succesvol opgeslagen";
+"note_placeholder" = "Itemtekst invoeren...";
+"edit_note" = "Itemtekst bewerken";
+"sync_now" = "Nu synchroniseren";
+"reorder_categories" = "Categorieën sorteren";
+"list_done_title" = "Boodschappen afronden?";
+"list_done_message" = "Wil je alle items als voltooid markeren?";
+
+// MARK: - Receptdetailweergave
+"details" = "Details";
+"add_all_ingredients" = "Alle ingrediënten toevoegen";
+"add_selected_ingredients" = "Alleen geselecteerde ingrediënten toevoegen";
+"add_ingredients_title" = "Ingrediënten toegevoegd";
+"add_ingredients_message" = "De ingrediënten zijn succesvol toegevoegd aan de boodschappenlijst.";
+"ingredients" = "Ingrediënten";
+"adjust_quantity" = "Hoeveelheidsfactor voor dit recept aanpassen:";
+"instructions" = "Bereiding";
+"recipe_details" = "Receptdetails";
+"preparation_time" = "Bereidingstijd";
+"prep_time" = "Bereiding";
+"cook_time" = "Kooktijd";
+"total_time_label" = "Totale tijd";
+"total_time" = "Totale tijd";
+"rating" = "Beoordeling";
+"servings_label" = "Porties";
+"servings" = "Porties";
+"share_recipe" = "Recept delen";
+"add_to_shopping_list" = "Toevoegen aan boodschappenlijst";
+"view_original" = "Origineel bekijken";
+
+// MARK: - Receptenlijst & Zoeken
+"search_recipe" = "Recept zoeken";
+"search_recipes" = "Recepten zoeken...";
+"no_recipes_found" = "Geen recepten gevonden";
+"all_categories" = "Alle categorieën";
+"no_recipes_for_category" = "Geen recepten gevonden voor deze categorie.";
+"refresh_recipes" = "Recepten vernieuwen";
+"filter_by_category" = "Filteren op categorie";
+"filter_by_tag" = "Filteren op label";
+"sort_by" = "Sorteren op";
+"sort_by_name" = "Naam";
+"sort_by_date" = "Datum";
+"sort_rating_highest" = "Hoogste beoordeling";
+"sort_rating_lowest" = "Laagste beoordeling";
+"selected_recipe" = "Geselecteerd recept";
+
+// MARK: - Recept bewerken
+"editRecipe" = "Recept bewerken";
+"title" = "Titel";
+"saving" = "Opslaan...";
+"changeImageWarningTitle" = "Afbeelding wijzigen?";
+"changeImageWarningMessage" = "Het wijzigen van de afbeelding overschrijft de huidige receptfoto.";
+"unsavedChanges" = "Niet-opgeslagen wijzigingen";
+"unsavedChangesMessage" = "Je hebt niet-opgeslagen wijzigingen. Wil je ze verwijderen?";
+"discard" = "Verwijderen";
+"keepEditing" = "Verder bewerken";
+"organization" = "Labels & Categorieën";
+"tags" = "Labels";
+"categories" = "Categorieën";
+"servingsHint" = "bijv. 4";
+"portionUnit" = "Porties";
+"min" = "min";
+"step" = "Stap";
+"noneSelected" = "Niets geselecteerd";
+"saveSuccessTitle" = "Opgeslagen!";
+"recipeUpdatedSuccessfully" = "Recept succesvol bijgewerkt!";
+"imageUploadFailed" = "Afbeelding-upload mislukt";
+"parsed" = "Gestructureerd";
+"mixed" = "Gemengd";
+"quantity" = "Hoeveelheid";
+"unit" = "Eenheid";
+
+// MARK: - Ingrediëntensectie (bewerken)
+"noIngredientsYet" = "Nog geen ingrediënten";
+"tapBelowToAdd" = "Tik hieronder om toe te voegen";
+"addIngredient" = "Ingrediënt toevoegen";
+"addIngredientAccessibility" = "Ingrediënt toevoegen";
+"tapToAddNewIngredient" = "Tik om nieuw ingrediënt toe te voegen";
+"ingredient" = "Ingrediënt";
+
+// MARK: - Bereidingssectie (bewerken)
+"noInstructionsYet" = "Nog geen stappen";
+"stepPlaceholder" = "Beschrijf deze stap...";
+"addStep" = "Stap toevoegen";
+"addStepAccessibility" = "Stap toevoegen";
+"tapToAddNewStep" = "Tik om nieuwe stap toe te voegen";
+
+// MARK: - Receptupload
+"recipe_upload" = "➕ Recept toevoegen";
+"image_placeholder_url" = "https://example.com/recipe";
+"uploading_image" = "Afbeelding uploaden...";
+"enter_recipe_url_hint" = "Voer de recept-URL in om deze op je server op te slaan";
+"upload_result" = "Upload-resultaat";
+"image_load_error" = "❌ Kon bestand niet laden.";
+"image_conversion_error" = "Afbeeldingconversie voor upload mislukt.";
+"image_upload_hint" = "Je kunt ook een foto of PDF van een recept uploaden. Het wordt automatisch geanalyseerd en geïmporteerd met behulp van AI.";
+"openai_hint_title" = "Bestandsanalyse-info";
+"openai_hint_message" = "Receptanalyse wordt uitgevoerd via de OpenAI API. Zorg ervoor dat je API-sleutel is geconfigureerd in de Mealie-serverinstellingen.";
+"upload_from_url" = "Recept importeren via URL";
+"upload_url_section_title" = "Importeren via recept-URL";
+"upload_image_section_title" = "Importeren via OpenAI vanaf bestand";
+"upload_recipe" = "Nieuw recept uploaden";
+"select_image" = "Afbeelding selecteren";
+"select_pdf" = "PDF selecteren";
+"upload_success" = "Upload succesvol!";
+"create_recipe" = "Recept aanmaken";
+
+// MARK: - Maaltijdplanning
+"meal_plan" = "📅 Maaltijdplanning";
+"no_meals" = "Geen maaltijden gepland";
+"breakfast" = "Ontbijt";
+"lunch" = "Lunch";
+"dinner" = "Diner";
+"select_slot" = "Maaltijd";
+"select_date" = "Datum";
+"add_custom_meal" = "Aangepaste maaltijd toevoegen";
+"confirm_meal" = "Toevoegen aan maaltijdplanning";
+"no_recipe_linked" = "Geen recept gelinkt";
+"unknown_entry" = "Onbekende invoer";
+"today" = "Vandaag";
+"current_week" = "Huidige week";
+"entries_in_other_weeks" = "Er zijn invoeren in andere weken";
+"available_weeks" = "Beschikbare weken:";
+"entry_singular" = "invoer";
+"entries_plural" = "invoeren";
+
+// MARK: - Datumselectie (Maaltijdplanning)
+"select_week" = "Week selecteren";
+"select_week_description" = "Selecteer een datum om naar de bijbehorende week te springen";
+"selected_week" = "Geselecteerde week";
+"go_to_week" = "Naar week springen";
+"jump_to_date" = "Naar datum springen";
+"week_abbreviation" = "Week";
+
+// MARK: - Restjesrecepten
+"leftover.ingredients" = "Ingrediënten thuis";
+"leftover.enter_ingredient" = "Ingrediënt invoeren";
+"leftover.suggestions" = "Receptsuggesties";
+"leftover.no_matches" = "Geen passende recepten gevonden.";
+"leftover.matching_percent" = "%d%% overeenkomst (%d/%d)";
+"leftover.description" = "Voer beschikbare ingrediënten in om geschikte recepten te vinden en restjes optimaal te benutten.";
+"leftover.refresh" = "Recepten vernieuwen";
+"leftover.refresh_info_title" = "Wat doet deze functie?";
+"leftover.refresh_info" = "Deze functie laadt alle recepten opnieuw van de server en werkt de lokale cache bij. Dit zorgt ervoor dat nieuw toegevoegde of gewijzigde recepten beschikbaar zijn voor ingrediëntenafstemming. Afhankelijk van het aantal recepten kan dit enkele seconden duren.";
+
+// MARK: - Archief & Verwijderen
+"delete_all" = "Alles verwijderen";
+"delete_confirm_title" = "Alle gearchiveerde lijsten verwijderen?";
+"delete_confirm_message" = "Deze actie kan niet ongedaan worden gemaakt.";
+"confirm_delete_title" = "Recept verwijderen?";
+"confirm_delete_message" = "Weet je zeker dat je dit recept wilt verwijderen?";
+"list_title" = "Lijst %d";
+
+// MARK: - Importeren vanuit Herinneringen
+"import_from_reminders" = "Importeren vanuit Herinneringen";
+"import_now" = "Nu importeren";
+"reminders_choose_list" = "Herinneringenlijst kiezen";
+"reminders_list" = "Lijst";
+"this_is_grocery_list" = "Dit is een boodschappenlijst";
+"this_is_grocery_list_help" = "Inschakelen als dit Apple's boodschappenlijst is";
+"importing_from_reminders" = "Importeren vanuit Herinneringen...";
+"postimport_hint" = "Geldt alleen voor de zojuist geïmporteerde herinneringen.";
+"postimport_action" = "Na import:";
+"postimport_leave" = "Laten staan";
+"postimport_complete" = "Afronden";
+"postimport_complete_delete" = "Afronden & Verwijderen";
+"import_reminders" = "Herinneringen importeren";
+"select_list" = "Lijst selecteren";
+"import_selected" = "Geselecteerde importeren";
+"import_all" = "Alles importeren";
+"import_in_progress" = "Importeren...";
+"import_success" = "Import succesvol";
+"import_error" = "Import mislukt";
+"no_reminders_found" = "Geen herinneringen gevonden";
+
+// MARK: - Synchronisatie & Conflictoplossing
+"sync_alert_yes" = "Ja";
+"sync_alert_no" = "Nee";
+"sync_changes_title" = "Offline wijzigingen";
+"sync_changes_checked" = "Aangevinkt";
+"sync_changes_quantity" = "Hoeveelheid";
+"sync_changes_category" = "Categorie";
+"local_value" = "Lokaal";
+"server_value" = "Server";
+"sync_changes_additions_en" = "Nieuw toegevoegd";
+"keep_local" = "Lokaal houden";
+"use_new" = "Nieuw gebruiken";
+
+// MARK: - Plaatshouders & UI-elementen
+"addNewPlaceholder" = "Nieuwe invoer…";
+"addIngredient" = "Ingrediënt toevoegen";
+"addStep" = "Stap toevoegen";
+
+// MARK: - Sorteerfunctie voor recepten
+"sort_recipes" = "Recepten sorteren";
+"sort_name_a_z" = "Naam: A → Z";
+"sort_name_z_a" = "Naam: Z → A";
+"sort_date_newest" = "Nieuwste eerst";
+"sort_date_oldest" = "Oudste eerst";
+"sort_prep_time_short" = "Kortste bereidingstijd";
+"sort_prep_time_long" = "Langste bereidingstijd";

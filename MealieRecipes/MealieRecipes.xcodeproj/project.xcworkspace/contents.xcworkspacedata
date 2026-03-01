@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "self:">
+   </FileRef>
+   <FileRef
+      location = "group:FIX_INGREDIENT_NOTE_FIELD.md">
+   </FileRef>
+   <FileRef
+      location = "group:LOCALIZATION_NOTE_FIELD.md">
+   </FileRef>
+   <FileRef
+      location = "group:UnitNormalizer.swift">
+   </FileRef>
+   <FileRef
+      location = "group:IngredientLookupService.swift">
+   </FileRef>
+   <FileRef
+      location = "group:FIX_UNIT_FOOD_NAME_MISMATCH.md">
+   </FileRef>
+   <FileRef
+      location = "group:TEST_RECIPE_SAVE_FIX.md">
+   </FileRef>
+</Workspace>

@@ -1,0 +1,51 @@
+import PDFKit
+
+func renderLimitedPDFAsImage(
+    from url: URL,
+    targetWidth: CGFloat = 1200,
+    maxHeight: CGFloat = 4000
+) -> UIImage? {
+    guard let pdfDocument = PDFDocument(url: url) else { return nil }
+
+    var totalHeight: CGFloat = 0
+    var pageSizes: [CGSize] = []
+    var pagesToRender: [(page: PDFPage, scale: CGFloat)] = []
+
+    for pageIndex in 0..<pdfDocument.pageCount {
+        guard let page = pdfDocument.page(at: pageIndex) else { continue }
+        let originalSize = page.bounds(for: .mediaBox).size
+        let scale = targetWidth / originalSize.width
+        let scaledSize = CGSize(width: targetWidth, height: originalSize.height * scale)
+
+        if totalHeight + scaledSize.height > maxHeight {
+            return nil // Bild wäre zu groß → Abbruch
+        }
+
+        totalHeight += scaledSize.height
+        pageSizes.append(scaledSize)
+        pagesToRender.append((page, scale))
+    }
+
+    let finalSize = CGSize(width: targetWidth, height: totalHeight)
+
+    let renderer = UIGraphicsImageRenderer(size: finalSize)
+    let image = renderer.image { context in
+        var yOffset: CGFloat = 0
+
+        for (index, entry) in pagesToRender.enumerated() {
+            let size = pageSizes[index]
+            let page = entry.page
+            let scale = entry.scale
+
+            context.cgContext.saveGState()
+            context.cgContext.translateBy(x: 0, y: yOffset + size.height)
+            context.cgContext.scaleBy(x: scale, y: -scale)
+            page.draw(with: .mediaBox, to: context.cgContext)
+            context.cgContext.restoreGState()
+
+            yOffset += size.height
+        }
+    }
+
+    return image
+}

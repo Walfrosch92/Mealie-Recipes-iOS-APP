@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C37E78B2EE31C7000972C96 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 4C37E78A2EE31C7000972C96 /* Kingfisher */; };
+		4C8CFD272EE5BD320053C465 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8CFD082EE5BC800053C465 /* WidgetKit.framework */; };
+		4C8CFD282EE5BD320053C465 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8CFD0A2EE5BC810053C465 /* SwiftUI.framework */; };
+		4C8CFD392EE5BD340053C465 /* Mealie Recipes_WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4C8CFD262EE5BD320053C465 /* Mealie Recipes_WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4CA4C5002DC291DA002E743E /* alarm.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4CA4C4FF2DC291DA002E743E /* alarm.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C15A3BB2DBED8D8001FF9CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C15A3A52DBED8D6001FF9CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C15A3AC2DBED8D6001FF9CE;
+			remoteInfo = MealieRecipes;
+		};
+		4C15A3C52DBED8D8001FF9CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C15A3A52DBED8D6001FF9CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C15A3AC2DBED8D6001FF9CE;
+			remoteInfo = MealieRecipes;
+		};
+		4C8CFD372EE5BD340053C465 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C15A3A52DBED8D6001FF9CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C8CFD252EE5BD320053C465;
+			remoteInfo = "Mealie Recipes_WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C8CFD212EE5BC840053C465 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4C8CFD392EE5BD340053C465 /* Mealie Recipes_WidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C15A3AD2DBED8D6001FF9CE /* MealieRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealieRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C15A3BA2DBED8D8001FF9CE /* MealieRecipesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealieRecipesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C15A3C42DBED8D8001FF9CE /* MealieRecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealieRecipesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3B8BF02DC166FF00750A6F /* MealieRecipes.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = MealieRecipes.xctestplan; sourceTree = "<group>"; };
+		4C8CFD082EE5BC800053C465 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		4C8CFD0A2EE5BC810053C465 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		4C8CFD262EE5BD320053C465 /* Mealie Recipes_WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Mealie Recipes_WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA4C4FF2DC291DA002E743E /* alarm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alarm.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4C8CFD3D2EE5BD340053C465 /* Exceptions for "Mealie Recipes_Widget" folder in "Mealie Recipes_WidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4C8CFD252EE5BD320053C465 /* Mealie Recipes_WidgetExtension */;
+		};
+		4C8CFD3F2EE5BE330053C465 /* Exceptions for "MealieRecipes" folder in "Mealie Recipes_WidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Localizable.strings",
+				TimerAttributes.swift,
+				TimerLiveActivity.swift,
+			);
+			target = 4C8CFD252EE5BD320053C465 /* Mealie Recipes_WidgetExtension */;
+		};
+		4C9C6A952DCA81F9007AA122 /* Exceptions for "MealieRecipes" folder in "MealieRecipes" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				"Models/Colors+Extensions.swift",
+				Services/PrintHelper.swift,
+			);
+			target = 4C15A3AC2DBED8D6001FF9CE /* MealieRecipes */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4C15A3AF2DBED8D6001FF9CE /* MealieRecipes */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4C9C6A952DCA81F9007AA122 /* Exceptions for "MealieRecipes" folder in "MealieRecipes" target */,
+				4C8CFD3F2EE5BE330053C465 /* Exceptions for "MealieRecipes" folder in "Mealie Recipes_WidgetExtension" target */,
+			);
+			path = MealieRecipes;
+			sourceTree = "<group>";
+		};
+		4C8CFD292EE5BD320053C465 /* Mealie Recipes_Widget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4C8CFD3D2EE5BD340053C465 /* Exceptions for "Mealie Recipes_Widget" folder in "Mealie Recipes_WidgetExtension" target */,
+			);
+			path = "Mealie Recipes_Widget";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C15A3B72DBED8D8001FF9CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C15A3C12DBED8D8001FF9CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C8CFD232EE5BD320053C465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8CFD282EE5BD320053C465 /* SwiftUI.framework in Frameworks */,
+				4C8CFD272EE5BD320053C465 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9C6A9C2DCA8668007AA122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C37E78B2EE31C7000972C96 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C15A3A42DBED8D6001FF9CE = {
+			isa = PBXGroup;
+			children = (
+				4C3B8BF02DC166FF00750A6F /* MealieRecipes.xctestplan */,
+				4C15A3AF2DBED8D6001FF9CE /* MealieRecipes */,
+				4C8CFD292EE5BD320053C465 /* Mealie Recipes_Widget */,
+				4C15A3AE2DBED8D6001FF9CE /* Products */,
+				4CA4C4FF2DC291DA002E743E /* alarm.wav */,
+				4C2A722B2DC57C6800BD87B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C15A3AE2DBED8D6001FF9CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C15A3AD2DBED8D6001FF9CE /* MealieRecipes.app */,
+				4C15A3BA2DBED8D8001FF9CE /* MealieRecipesTests.xctest */,
+				4C15A3C42DBED8D8001FF9CE /* MealieRecipesUITests.xctest */,
+				4C8CFD262EE5BD320053C465 /* Mealie Recipes_WidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C2A722B2DC57C6800BD87B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C8CFD082EE5BC800053C465 /* WidgetKit.framework */,
+				4C8CFD0A2EE5BC810053C465 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C15A3AC2DBED8D6001FF9CE /* MealieRecipes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C15A3CE2DBED8D8001FF9CE /* Build configuration list for PBXNativeTarget "MealieRecipes" */;
+			buildPhases = (
+				4C15A3A92DBED8D6001FF9CE /* Sources */,
+				4C15A3AB2DBED8D6001FF9CE /* Resources */,
+				4C9C6A9C2DCA8668007AA122 /* Frameworks */,
+				4C8CFD212EE5BC840053C465 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C8CFD382EE5BD340053C465 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4C15A3AF2DBED8D6001FF9CE /* MealieRecipes */,
+			);
+			name = MealieRecipes;
+			packageProductDependencies = (
+				4C37E78A2EE31C7000972C96 /* Kingfisher */,
+			);
+			productName = MealieRecipes;
+			productReference = 4C15A3AD2DBED8D6001FF9CE /* MealieRecipes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C15A3B92DBED8D8001FF9CE /* MealieRecipesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C15A3D12DBED8D8001FF9CE /* Build configuration list for PBXNativeTarget "MealieRecipesTests" */;
+			buildPhases = (
+				4C15A3B62DBED8D8001FF9CE /* Sources */,
+				4C15A3B72DBED8D8001FF9CE /* Frameworks */,
+				4C15A3B82DBED8D8001FF9CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C15A3BC2DBED8D8001FF9CE /* PBXTargetDependency */,
+			);
+			name = MealieRecipesTests;
+			packageProductDependencies = (
+			);
+			productName = MealieRecipesTests;
+			productReference = 4C15A3BA2DBED8D8001FF9CE /* MealieRecipesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C15A3C32DBED8D8001FF9CE /* MealieRecipesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C15A3D42DBED8D8001FF9CE /* Build configuration list for PBXNativeTarget "MealieRecipesUITests" */;
+			buildPhases = (
+				4C15A3C02DBED8D8001FF9CE /* Sources */,
+				4C15A3C12DBED8D8001FF9CE /* Frameworks */,
+				4C15A3C22DBED8D8001FF9CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C15A3C62DBED8D8001FF9CE /* PBXTargetDependency */,
+			);
+			name = MealieRecipesUITests;
+			packageProductDependencies = (
+			);
+			productName = MealieRecipesUITests;
+			productReference = 4C15A3C42DBED8D8001FF9CE /* MealieRecipesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4C8CFD252EE5BD320053C465 /* Mealie Recipes_WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C8CFD3A2EE5BD340053C465 /* Build configuration list for PBXNativeTarget "Mealie Recipes_WidgetExtension" */;
+			buildPhases = (
+				4C8CFD222EE5BD320053C465 /* Sources */,
+				4C8CFD232EE5BD320053C465 /* Frameworks */,
+				4C8CFD242EE5BD320053C465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4C8CFD292EE5BD320053C465 /* Mealie Recipes_Widget */,
+			);
+			name = "Mealie Recipes_WidgetExtension";
+			packageProductDependencies = (
+			);
+			productName = "Mealie Recipes_WidgetExtension";
+			productReference = 4C8CFD262EE5BD320053C465 /* Mealie Recipes_WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C15A3A52DBED8D6001FF9CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					4C15A3AC2DBED8D6001FF9CE = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					4C15A3B92DBED8D8001FF9CE = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 4C15A3AC2DBED8D6001FF9CE;
+					};
+					4C15A3C32DBED8D8001FF9CE = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 4C15A3AC2DBED8D6001FF9CE;
+					};
+					4C8CFD252EE5BD320053C465 = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 4C15A3A82DBED8D6001FF9CE /* Build configuration list for PBXProject "MealieRecipes" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				fr,
+				es,
+				nl,
+			);
+			mainGroup = 4C15A3A42DBED8D6001FF9CE;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4C37E7892EE31C7000972C96 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4C15A3AE2DBED8D6001FF9CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C15A3AC2DBED8D6001FF9CE /* MealieRecipes */,
+				4C15A3B92DBED8D8001FF9CE /* MealieRecipesTests */,
+				4C15A3C32DBED8D8001FF9CE /* MealieRecipesUITests */,
+				4C8CFD252EE5BD320053C465 /* Mealie Recipes_WidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C15A3AB2DBED8D6001FF9CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA4C5002DC291DA002E743E /* alarm.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C15A3B82DBED8D8001FF9CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C15A3C22DBED8D8001FF9CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C8CFD242EE5BD320053C465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C15A3A92DBED8D6001FF9CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C15A3B62DBED8D8001FF9CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C15A3C02DBED8D8001FF9CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C8CFD222EE5BD320053C465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C15A3BC2DBED8D8001FF9CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C15A3AC2DBED8D6001FF9CE /* MealieRecipes */;
+			targetProxy = 4C15A3BB2DBED8D8001FF9CE /* PBXContainerItemProxy */;
+		};
+		4C15A3C62DBED8D8001FF9CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C15A3AC2DBED8D6001FF9CE /* MealieRecipes */;
+			targetProxy = 4C15A3C52DBED8D8001FF9CE /* PBXContainerItemProxy */;
+		};
+		4C8CFD382EE5BD340053C465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C8CFD252EE5BD320053C465 /* Mealie Recipes_WidgetExtension */;
+			targetProxy = 4C8CFD372EE5BD340053C465 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4C15A3CC2DBED8D8001FF9CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C15A3CD2DBED8D8001FF9CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C15A3CF2DBED8D8001FF9CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q84VVPH7B3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MealieRecipes/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mealie Recipes";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSRemindersFullAccessUsageDescription = "This app requires access to your reminders to import shopping items.";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "This app requires access to your reminders to import shopping items.";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = NO;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.23;
+				PRODUCT_BUNDLE_IDENTIFIER = Walfrosch92.MealieRecipes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				weg = "";
+			};
+			name = Debug;
+		};
+		4C15A3D02DBED8D8001FF9CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q84VVPH7B3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MealieRecipes/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mealie Recipes";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSRemindersFullAccessUsageDescription = "This app requires access to your reminders to import shopping items.";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "This app requires access to your reminders to import shopping items.";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = NO;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.23;
+				PRODUCT_BUNDLE_IDENTIFIER = Walfrosch92.MealieRecipes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				weg = "";
+			};
+			name = Release;
+		};
+		4C15A3D22DBED8D8001FF9CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Walfrosch92.MealieRecipesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MealieRecipes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MealieRecipes";
+			};
+			name = Debug;
+		};
+		4C15A3D32DBED8D8001FF9CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Walfrosch92.MealieRecipesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MealieRecipes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MealieRecipes";
+			};
+			name = Release;
+		};
+		4C15A3D52DBED8D8001FF9CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Walfrosch92.MealieRecipesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MealieRecipes;
+			};
+			name = Debug;
+		};
+		4C15A3D62DBED8D8001FF9CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Walfrosch92.MealieRecipesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MealieRecipes;
+			};
+			name = Release;
+		};
+		4C8CFD3B2EE5BD340053C465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q84VVPH7B3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mealie Recipes_Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mealie Recipes";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.23;
+				PRODUCT_BUNDLE_IDENTIFIER = "Walfrosch92.MealieRecipes.Mealie-Recipes-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C8CFD3C2EE5BD340053C465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q84VVPH7B3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mealie Recipes_Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mealie Recipes";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.23;
+				PRODUCT_BUNDLE_IDENTIFIER = "Walfrosch92.MealieRecipes.Mealie-Recipes-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C15A3A82DBED8D6001FF9CE /* Build configuration list for PBXProject "MealieRecipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C15A3CC2DBED8D8001FF9CE /* Debug */,
+				4C15A3CD2DBED8D8001FF9CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C15A3CE2DBED8D8001FF9CE /* Build configuration list for PBXNativeTarget "MealieRecipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C15A3CF2DBED8D8001FF9CE /* Debug */,
+				4C15A3D02DBED8D8001FF9CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C15A3D12DBED8D8001FF9CE /* Build configuration list for PBXNativeTarget "MealieRecipesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C15A3D22DBED8D8001FF9CE /* Debug */,
+				4C15A3D32DBED8D8001FF9CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C15A3D42DBED8D8001FF9CE /* Build configuration list for PBXNativeTarget "MealieRecipesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C15A3D52DBED8D8001FF9CE /* Debug */,
+				4C15A3D62DBED8D8001FF9CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C8CFD3A2EE5BD340053C465 /* Build configuration list for PBXNativeTarget "Mealie Recipes_WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C8CFD3B2EE5BD340053C465 /* Debug */,
+				4C8CFD3C2EE5BD340053C465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4C37E7892EE31C7000972C96 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.6.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C37E78A2EE31C7000972C96 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C37E7892EE31C7000972C96 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4C15A3A52DBED8D6001FF9CE /* Project object */;
+}

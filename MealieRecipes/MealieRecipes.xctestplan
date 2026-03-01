@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "430F9FC0-02FB-4D01-88AB-3FB7FF8ED908",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:MealieRecipes.xcodeproj",
+      "identifier" : "4C15A3AC2DBED8D6001FF9CE",
+      "name" : "MealieRecipes"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:MealieRecipes.xcodeproj",
+        "identifier" : "4C15A3B92DBED8D8001FF9CE",
+        "name" : "MealieRecipesTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:MealieRecipes.xcodeproj",
+        "identifier" : "4C15A3C32DBED8D8001FF9CE",
+        "name" : "MealieRecipesUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
