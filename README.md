@@ -10,6 +10,14 @@
 
 > ⚠️ **Hinweis:** Dies ist eine Drittanbieter-App und kein offizielles Produkt des Mealie-Projekts. Sie benötigt einen eigenen, laufenden Mealie-Server (API v2.8.0).
 
+---
+
+☕ **Unterstützung willkommen / Support appreciated**  
+**Wenn dir diese APP gefällt, freue ich mich über eine kleine Unterstützung.**  
+**If you like the APP, I’d appreciate a small contribution on [Buy Me a Coffee](https://buymeacoffee.com/walfrosch92).**
+
+---
+
 ## ✨ Funktionen im Überblick
 
 Die App verwandelt deine Rezeptdatenbank in ein interaktives Kocherlebnis:
