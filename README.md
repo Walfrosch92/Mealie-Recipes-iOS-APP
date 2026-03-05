@@ -8,7 +8,7 @@
 
 **Verwalte deine Rezepte nahtlos mit deinem eigenen Mealie-Server.** Diese App ist der perfekte Begleiter für alle, die Mealie selbst hosten und eine native, schnelle und schöne Oberfläche für iPhone, iPad und Mac suchen.
 
-> ⚠️ **Hinweis:** Dies ist eine Drittanbieter-App und kein offizielles Produkt des Mealie-Projekts. Sie benötigt einen eigenen, laufenden Mealie-Server (API v2.8.0).
+> ⚠️ **Hinweis:** Dies ist eine Drittanbieter-App und kein offizielles Produkt des Mealie-Projekts. Sie benötigt einen eigenen, laufenden Mealie-Server.
 
 ---
 
