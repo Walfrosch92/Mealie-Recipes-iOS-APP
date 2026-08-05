@@ -114,6 +114,11 @@
 "error_image_conversion" = "Afbeeldingconversie mislukt";
 "error_upload_failed" = "Upload mislukt";
 "error_image_upload_failed" = "Afbeelding-upload mislukt";
+"upload_failed" = "Upload mislukt";
+"pdf_too_large" = "Het PDF-bestand is te groot.";
+"checking_permissions" = "Machtigingen worden gecontroleerd...";
+"select" = "Selecteren";
+"sync_changes_additions" = "Nieuw toegevoegd";
 "error_missing_base_url" = "Server-URL of token ontbreekt.";
 "error_invalid_shopping_list_id" = "Ongeldig boodschappenlijst-ID.";
 "leftover.invalid_recipe_id" = "Ongeldig recept-ID";

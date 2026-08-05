@@ -114,6 +114,11 @@
 "error_image_conversion" = "Image conversion failed";
 "error_upload_failed" = "Upload failed";
 "error_image_upload_failed" = "Image upload failed";
+"upload_failed" = "Upload failed";
+"pdf_too_large" = "The PDF file is too large.";
+"checking_permissions" = "Checking permissions...";
+"select" = "Select";
+"sync_changes_additions" = "Newly Added";
 "error_missing_base_url" = "Server URL or token missing.";
 "error_invalid_shopping_list_id" = "Invalid shopping list ID.";
 "leftover.invalid_recipe_id" = "Invalid Recipe ID";

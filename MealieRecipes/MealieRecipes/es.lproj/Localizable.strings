@@ -114,6 +114,11 @@
 "error_image_conversion" = "Error en conversión de imagen";
 "error_upload_failed" = "Subida fallida";
 "error_image_upload_failed" = "Error subiendo imagen";
+"upload_failed" = "Subida fallida";
+"pdf_too_large" = "El archivo PDF es demasiado grande.";
+"checking_permissions" = "Comprobando permisos...";
+"select" = "Seleccionar";
+"sync_changes_additions" = "Recién añadidos";
 "error_missing_base_url" = "Falta URL del servidor o token.";
 "error_invalid_shopping_list_id" = "ID de lista de compras inválido.";
 "leftover.invalid_recipe_id" = "ID de receta inválido";

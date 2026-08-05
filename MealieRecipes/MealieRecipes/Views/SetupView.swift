@@ -580,7 +580,7 @@ struct SetupView: View {
                 .foregroundColor(.secondary)
             
             Menu {
-                ForEach(["de", "en", "fr", "es", "nl"], id: \.self) { code in
+                ForEach(["de", "en", "fr", "es", "nl", "hu"], id: \.self) { code in
                     Button {
                         withAnimation {
                             tempLanguage = code
@@ -828,6 +828,7 @@ struct SetupView: View {
         case "fr": return "Français"
         case "es": return "Español"
         case "nl": return "Dutch"
+        case "hu": return "Magyar"
         default: return code
         }
     }

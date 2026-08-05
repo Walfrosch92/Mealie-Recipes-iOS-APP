@@ -1,0 +1,376 @@
+/*
+  Localizable.strings (Hungarian)
+  MealieRecipes - Magyar lokalizáció
+*/
+
+// MARK: - Navigation & Common
+"initial_setup" = "Kezdeti beállítás";
+"settings" = "⚙️ Beállítások";
+"cancel" = "Mégse";
+"done" = "Kész";
+"ok" = "OK";
+"save" = "Mentés";
+"save_and_start" = "Mentés és indítás";
+"save_changes" = "Változások mentése";
+"reset_app" = "App alaphelyzetbe állítása";
+"reset" = "Alaphelyzetbe állítás";
+"confirm" = "Megerősítés";
+"back" = "Vissza";
+"close" = "Bezárás";
+"edit" = "Szerkesztés";
+"delete" = "Törlés";
+"start" = "Indítás";
+"change" = "Módosítás";
+"apply" = "Alkalmazás";
+"minimize" = "Kis méret";
+"home" = "Kezdőlap";
+"select_option" = "Válasszon lehetőséget:";
+"all" = "Összes";
+"plan_meal" = "Tervezés";
+"continue" = "Folytatás";
+"loading" = "Betöltés...";
+"please_wait" = "Kérem, várjon...";
+"share" = "Megosztás";
+"copy" = "Másolás";
+"add" = "Hozzáadás";
+"remove" = "Eltávolítás";
+"retry" = "Újra";
+"dismiss" = "Elvetés";
+"select_all" = "Összes kijelölése";
+"deselect_all" = "Kijelölés törlése";
+
+// MARK: - Setup & Configuration
+"send_optional_headers" = "Opcionális fejlécek küldése";
+"language" = "Nyelv";
+"confirm_reset" = "Alaphelyzetbe állítja az appot?";
+"reset_warning" = "Ez visszaállítja az összes beállítást. Folytatja?";
+"app_logo" = "App logó";
+"show_recipe_images" = "Receptképek megjelenítése?";
+"show_recipe_images_description" = "Képeket mutat a receptlistában";
+"enable_logging" = "Naplózás engedélyezése";
+"enable_logging_description" = "Az utolsó 500 naplósort helyben menti";
+"icon_switch_not_supported" = "Az ikonváltás nem támogatott";
+"icon_switch_failed" = "Az ikonváltás nem sikerült";
+"icon_switched_to" = "Az ikon megváltozott erre:";
+"standard_icon" = "Standard";
+"welcome_subtitle" = "Csatlakozás a Mealie-kiszolgálóhoz";
+"server_url_placeholder" = "https://mealie.pelda.com";
+"token_placeholder" = "Az Ön API-tokenje";
+"household_placeholder" = "Család";
+"api_version_label" = "Mealie API-verzió";
+"header_name_placeholder" = "Név";
+"header_value_placeholder" = "Érték";
+"file_size" = "Fájlméret";
+"connection" = "Kapcsolat";
+"advanced_options" = "Speciális beállítások";
+"personalization" = "Személyre szabás";
+"developer" = "Fejlesztő";
+
+// MARK: - Logging
+"log_file_section" = "Naplófájl (utolsó 500 sor)";
+"log_entries" = "Bejegyzések";
+"log_last_500" = "Utolsó 500";
+"log_empty" = "Üres";
+"log_show" = "Megjelenítés";
+"log_share" = "Megosztás";
+"log_clear" = "Törlés";
+"log_show_title" = "Naplók (utolsó 500)";
+"log_copy" = "Másolás";
+"log_close" = "Bezárás";
+"log_cleared" = "Napló törölve";
+"log_cleared_message" = "Az összes naplóbejegyzés törölve lett.";
+
+// MARK: - Main Navigation
+"show_recipes" = "📖 Receptek megjelenítése";
+"shopping_list" = "🛒 Bevásárlólista";
+"archived_lists" = "🗂️ Archivált listák";
+"recipes" = "📖 Receptek";
+"meal_plan" = "📅 Étkezési terv";
+"leftover.title" = "🥘 Maradék felhasználása";
+"section_shopping" = "Bevásárlás";
+"section_planning" = "Tervezés";
+"section_recipes" = "Receptek";
+"section_other" = "Egyéb";
+
+// MARK: - Welcome & Loading
+"welcome_title" = "Üdvözöljük a Mealie Recipes-ben! 👋";
+"loading_shopping_list_id" = "Bevásárlólista betöltése...";
+"loading_recipes" = "Receptek betöltése...";
+"loading_recipe" = "Recept betöltése...";
+"no_lists_loaded" = "Nincs betöltött lista";
+
+// MARK: - Error Messages
+"error" = "Hiba";
+"success" = "Siker";
+"error_loading_recipes" = "Hiba: %@";
+"error_loading_recipe" = "A recept betöltése sikertelen.";
+"invalid_recipe_id" = "Érvénytelen recept-azonosító";
+"upload_error" = "Hiba";
+"upload_http_error" = "A fájlfeltöltés sikertelen, státuszkód: %d";
+"error_invalid_json" = "Érvénytelen JSON-tartalom";
+"error_payload_encoding" = "Hiba a payload kódolása során";
+"error_image_conversion" = "A képkonverzió sikertelen";
+"error_upload_failed" = "Feltöltés sikertelen";
+"error_image_upload_failed" = "A képfeltöltés sikertelen";
+"upload_failed" = "Feltöltés sikertelen";
+"pdf_too_large" = "A PDF-fájl túl nagy.";
+"checking_permissions" = "Jogosultságok ellenőrzése...";
+"select" = "Kiválasztás";
+"sync_changes_additions" = "Újonnan hozzáadva";
+"error_missing_base_url" = "A szerver URL-je vagy a token hiányzik.";
+"error_invalid_shopping_list_id" = "Érvénytelen bevásárlólista-azonosító.";
+"leftover.invalid_recipe_id" = "Érvénytelen recept-azonosító";
+"saveErrorTitle" = "Hiba";
+"saveErrorMessage" = "Hiba történt a mentés közben.";
+"validationError" = "Érvényesítési hiba";
+"errorEmptyTitle" = "Kérjük, adjon meg egy címet";
+"errorNoIngredients" = "Kérjük, adjon hozzá legalább egy hozzávalót";
+"errorNoInstructions" = "Kérjük, adjon hozzá legalább egy lépést";
+"errorEmptyInstructions" = "Egyes lépések üresek. Kérjük, töltse ki, vagy törölje az üres lépéseket.";
+"noInternetConnection" = "Nincs internetkapcsolat. Kérjük, ellenőrizze a hálózati beállításokat.";
+"uploadTimeout" = "Feltöltési időtúllépés. Kérjük, próbálja újra.";
+"reminders_access_denied" = "Nincs hozzáférés az Emlékeztetőkhöz. Kérjük, engedélyezze a Beállításokban.";
+"reminders_calendar_not_found" = "A kiválasztott emlékeztető lista nem található.";
+"postimport_failed_generic" = "Az emlékeztetők utófeldolgozása néhány elemnél sikertelen volt.";
+"sync_alert_title" = "Offline módosítások észlelve";
+"sync_alert_message" = "Szeretné most szinkronizálni a bevásárlólista módosításait a kiszolgálóval?";
+
+// MARK: - Timer
+"timer_title" = "Időzítő";
+"duration" = "Időtartam: %d perc";
+"new_duration" = "Új időtartam: %d perc";
+"remaining_time" = "%d perc %d másodperc van hátra";
+"display_always_on" = "Képernyő bekapcsolva tartása";
+"start_timer" = "Időzítő indítása";
+"running_timer" = "Időzítő fut: %dp %dm";
+"timer_finished" = "Az időzítő lejárt";
+"timer_live_activity_title" = "Recept-időzítő";
+"timer_remaining_time" = "Hátralévő idő";
+"timer_completed" = "Az időzítő lejárt!";
+"timer_recipe_timer" = "Recept-időzítő";
+
+// MARK: - Shopping List
+"select_shopping_list" = "Bevásárlólista kiválasztása";
+"unlabeled_category" = "Kategorizálatlan";
+"add_success" = "Hozzáadva ✅";
+"list_done_title" = "Lista kész 🎉";
+"list_done_message" = "A bevásárlólista archiválva lett.";
+"complete_shopping_confirm" = "Megerősítés";
+"completed_category_title" = "Befejezett";
+"add_item_placeholder" = "Új elem…";
+"complete_shopping" = "Bevásárlás befejezése";
+"shopping_done_title" = "Bevásárlás kész";
+"shopping_done_subtitle" = "Minden a kosárban van! 🎉";
+"change_category" = "Kategória módosítása";
+"select_category" = "Kategória kiválasztása";
+"delete_item_title" = "Elem törlése";
+"delete_item_confirm" = "Valóban törölni szeretné ezt az elemet?";
+"note_saved" = "Sikeresen mentve";
+"note_placeholder" = "Adja meg az elem szövegét...";
+"edit_note" = "Elem szövegének szerkesztése";
+"sync_now" = "Szinkronizálás most";
+"reorder_categories" = "Kategóriák rendezése";
+
+// MARK: - Recipe Detail View
+"details" = "Részletek";
+"add_all_ingredients" = "Az összes hozzávaló hozzáadása";
+"add_selected_ingredients" = "Csak a kiválasztott hozzávalók hozzáadása";
+"add_ingredients_title" = "Hozzávalók hozzáadva";
+"add_ingredients_message" = "A hozzávalókat sikeresen hozzáadtuk a bevásárlólistához.";
+"ingredients" = "Hozzávalók";
+"adjust_quantity" = "A recept mennyiségének módosítása:";
+"instructions" = "Elkészítés";
+"recipe_details" = "Recept részletei";
+"preparation_time" = "Előkészítési idő";
+"prep_time" = "Előkészítés";
+"cook_time" = "Főzési idő";
+"total_time_label" = "Teljes idő";
+"total_time" = "Teljes idő";
+"rating" = "Értékelés";
+"servings_label" = "Adagok";
+"servings" = "Adagok";
+"share_recipe" = "Recept megosztása";
+"add_to_shopping_list" = "Hozzáadás a bevásárlólistához";
+"view_original" = "Eredeti megtekintése";
+
+// MARK: - Recipe List & Search
+"search_recipe" = "Recept keresése";
+"search_recipes" = "Receptek keresése...";
+"no_recipes_found" = "Nem találhatók receptek";
+"all_categories" = "Összes kategória";
+"no_recipes_for_category" = "Nem találhatók receptek ebben a kategóriában.";
+"refresh_recipes" = "Receptek frissítése";
+"filter_by_category" = "Szűrés kategória szerint";
+"filter_by_tag" = "Szűrés címke szerint";
+"sort_by" = "Rendezés";
+"sort_by_name" = "Név";
+"sort_by_date" = "Dátum";
+"sort_rating_highest" = "Legmagasabb értékelés";
+"sort_rating_lowest" = "Legalacsonyabb értékelés";
+"selected_recipe" = "Kiválasztott recept";
+
+// MARK: - Edit Recipe
+"editRecipe" = "Recept szerkesztése";
+"title" = "Cím";
+"saving" = "Mentés...";
+"changeImageWarningTitle" = "Kép módosítása?";
+"changeImageWarningMessage" = "A kép módosítása felülírja a jelenlegi recept fotóját.";
+"unsavedChanges" = "Nem mentett változások";
+"unsavedChangesMessage" = "Nem mentett változások vannak. El szeretné vetni őket?";
+"discard" = "Elvetés";
+"keepEditing" = "Szerkesztés folytatása";
+"organization" = "Címkék és kategóriák";
+"tags" = "Címkék";
+"categories" = "Kategóriák";
+"servingsHint" = "pl. 4";
+"portionUnit" = "Adagok";
+"min" = "perc";
+"step" = "Lépés";
+"noneSelected" = "Nincs kiválasztva";
+"saveSuccessTitle" = "Mentve!";
+"recipeUpdatedSuccessfully" = "A recept sikeresen frissítve!";
+"imageUploadFailed" = "A képfeltöltés sikertelen";
+"parsed" = "Strukturált";
+"mixed" = "Vegyes";
+"quantity" = "Mennyiség";
+"unit" = "Egység";
+
+// MARK: - Ingredients Section (Edit)
+"noIngredientsYet" = "Még nincsenek hozzávalók";
+"tapBelowToAdd" = "Koppintson lentebb a hozzáadáshoz";
+"addIngredient" = "Hozzávaló hozzáadása";
+"addIngredientAccessibility" = "Hozzávaló hozzáadása";
+"tapToAddNewIngredient" = "Koppintson az új hozzávaló hozzáadásához";
+"ingredient" = "Hozzávaló";
+
+// MARK: - Instructions Section (Edit)
+"noInstructionsYet" = "Még nincsenek lépések";
+"stepPlaceholder" = "Írja le ezt a lépést...";
+"addStep" = "Lépés hozzáadása";
+"addStepAccessibility" = "Lépés hozzáadása";
+"tapToAddNewStep" = "Koppintson az új lépés hozzáadásához";
+
+// MARK: - Recipe Upload
+"recipe_upload" = "➕ Recept hozzáadása";
+"image_placeholder_url" = "https://pelda.com/recept";
+"uploading_image" = "Kép feltöltése...";
+"enter_recipe_url_hint" = "Adja meg a recept URL-jét a kiszolgálón való mentéshez";
+"upload_result" = "Feltöltés eredménye";
+"image_load_error" = "❌ A fájl betöltése sikertelen.";
+"image_conversion_error" = "A kép konverzió a feltöltéshez sikertelen.";
+"image_upload_hint" = "Alternatívaként feltölthet egy recept fotóját vagy PDF-jét. A rendszer automatikusan elemzi és importálja mesterséges intelligencia segítségével.";
+"openai_hint_title" = "Fájlelemzési információk";
+"openai_hint_message" = "A recept elemzése az OpenAI API-n keresztül történik. Ellenőrizze, hogy az API-kulcsa be van-e állítva a Mealie-kiszolgáló beállításaiban.";
+"upload_from_url" = "Recept importálása URL-ről";
+"upload_url_section_title" = "Importálás recept URL-jén keresztül";
+"upload_image_section_title" = "Importálás OpenAI-jal fájlból";
+"upload_recipe" = "Új recept feltöltése";
+"select_image" = "Kép kiválasztása";
+"select_pdf" = "PDF kiválasztása";
+"upload_success" = "Feltöltés sikeres!";
+"create_recipe" = "Recept létrehozása";
+
+// MARK: - Meal Plan
+"no_meals" = "Nincs tervezett étkezés";
+"breakfast" = "Reggeli";
+"lunch" = "Ebéd";
+"dinner" = "Vacsora";
+"select_slot" = "Étkezés";
+"select_date" = "Dátum";
+"add_custom_meal" = "Egyéni étkezés hozzáadása";
+"confirm_meal" = "Hozzáadás az étkezési tervhez";
+"no_recipe_linked" = "Nincs hozzárendelt recept";
+"unknown_entry" = "Ismeretlen bejegyzés";
+"today" = "Ma";
+"current_week" = "Jelenlegi hét";
+"entries_in_other_weeks" = "Más hetekben is vannak bejegyzések";
+"available_weeks" = "Elérhető hetek:";
+"entry_singular" = "bejegyzés";
+"entries_plural" = "bejegyzések";
+
+// MARK: - Date Selection (Meal Plan)
+"select_week" = "Hét kiválasztása";
+"select_week_description" = "Válasszon egy dátumot a megfelelő hétre való ugráshoz";
+"selected_week" = "Kiválasztott hét";
+"go_to_week" = "Ugrás a hétre";
+"jump_to_date" = "Ugrás dátumhoz";
+"week_abbreviation" = "Hét";
+
+// MARK: - Leftover Recipes
+"leftover.ingredients" = "Otthon lévő hozzávalók";
+"leftover.enter_ingredient" = "Hozzávaló megadása";
+"leftover.suggestions" = "Recept javaslatok";
+"leftover.no_matches" = "Nem találhatók megfelelő receptek.";
+"leftover.matching_percent" = "%d%% egyezés (%d/%d)";
+"leftover.description" = "Adja meg az elérhető hozzávalókat a megfelelő receptek megtalálásához és a maradékok optimális felhasználásához.";
+"leftover.refresh" = "Receptek frissítése";
+"leftover.refresh_info_title" = "Mit csinál ez a funkció?";
+"leftover.refresh_info" = "Ez a funkció újratölti az összes receptet a kiszolgálóról és frissíti a helyi gyorsítótárat. Ezzel biztosítható, hogy az újonnan hozzáadott vagy módosított receptek elérhetők legyenek az összetevők egyeztetéséhez. A receptek számától függően ez néhány másodpercig tarthat.";
+
+// MARK: - Archive & Delete
+"delete_all" = "Összes törlése";
+"delete_confirm_title" = "Törli az összes archivált listát?";
+"delete_confirm_message" = "Ez a művelet nem vonható vissza.";
+"confirm_delete_title" = "Törli a receptet?";
+"confirm_delete_message" = "Biztosan törölni szeretné ezt a receptet?";
+"list_title" = "%d. lista";
+
+// MARK: - Import from Reminders
+"import_from_reminders" = "Importálás az Emlékeztetőkből";
+"import_now" = "Importálás most";
+"reminders_choose_list" = "Emlékeztető lista kiválasztása";
+"reminders_list" = "Lista";
+"this_is_grocery_list" = "Ez egy bevásárlólista";
+"this_is_grocery_list_help" = "Engedélyezze, ha ez az Apple bevásárlólistája";
+"importing_from_reminders" = "Importálás az Emlékeztetőkből...";
+"postimport_hint" = "Csak a nemrég importált emlékeztetőkre vonatkozik.";
+"postimport_action" = "Importálás után:";
+"postimport_leave" = "Meghagyás";
+"postimport_complete" = "Befejezés";
+"postimport_complete_delete" = "Befejezés és törlés";
+"import_reminders" = "Emlékeztetők importálása";
+"select_list" = "Lista kiválasztása";
+"import_selected" = "Kiválasztottak importálása";
+"import_all" = "Összes importálása";
+"import_in_progress" = "Importálás...";
+"import_success" = "Importálás sikeres";
+"import_error" = "Importálás sikertelen";
+"no_reminders_found" = "Nem találhatók emlékeztetők";
+
+// MARK: - Sync & Conflict Resolution
+"sync_alert_yes" = "Igen";
+"sync_alert_no" = "Nem";
+"sync_changes_title" = "Offline módosítások";
+"sync_changes_checked" = "Bejelölve";
+"sync_changes_quantity" = "Mennyiség";
+"sync_changes_category" = "Kategória";
+"local_value" = "Helyi";
+"server_value" = "Szerver";
+"sync_changes_additions_en" = "Újonnan hozzáadott";
+"keep_local" = "Helyi megtartása";
+"use_new" = "Új használata";
+
+// MARK: - Placeholders & UI Elements
+"addNewPlaceholder" = "Új bejegyzés…";
+
+// MARK: - Recipe Sorting Function
+"sort_recipes" = "Receptek rendezése";
+"sort_name_a_z" = "Név: A → Z";
+"sort_name_z_a" = "Név: Z → A";
+"sort_date_newest" = "Legújabb előre";
+"sort_date_oldest" = "Legrégebbi előre";
+"sort_prep_time_short" = "Legrövidebb előkészítési idő";
+"sort_prep_time_long" = "Leghosszabb előkészítési idő";
+
+// MARK: - Ingredient Note Field
+"note" = "Megjegyzés";
+"addNote" = "Megjegyzés hozzáadása";
+"ingredientNote" = "Hozzávaló megjegyzése";
+"noteHint" = "pl. 'bio', 'kockára vágva', 'a mázhoz'";
+"noteOptional" = "Megjegyzés (opcionális)";
+
+// MARK: - Description Placeholder
+"description" = "Leírás";
+"titleRequired" = "Cím (kötelező)";
+"descriptionPlaceholder" = "Írja le a receptet...";
+"tapToAddPhoto" = "Koppintson a fotó hozzáadásához";

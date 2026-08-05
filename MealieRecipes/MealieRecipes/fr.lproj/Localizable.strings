@@ -114,6 +114,11 @@
 "error_image_conversion" = "Échec de la conversion d'image";
 "error_upload_failed" = "Échec du téléchargement";
 "error_image_upload_failed" = "Échec du téléchargement d'image";
+"upload_failed" = "Échec du téléchargement";
+"pdf_too_large" = "Le fichier PDF est trop volumineux.";
+"checking_permissions" = "Vérification des autorisations...";
+"select" = "Sélectionner";
+"sync_changes_additions" = "Nouveaux ajouts";
 "error_missing_base_url" = "URL du serveur ou jeton manquant.";
 "error_invalid_shopping_list_id" = "ID de liste de courses invalide.";
 "leftover.invalid_recipe_id" = "ID de recette invalide";

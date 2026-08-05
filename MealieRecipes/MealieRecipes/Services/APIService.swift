@@ -101,6 +101,7 @@ class APIService {
             "es": "es-ES",
             "fr": "fr-FR",
             "nl": "nl-NL",
+            "hu": "hu-HU",
             "it": "it-IT",
             "pt": "pt-PT",
             "pl": "pl-PL",

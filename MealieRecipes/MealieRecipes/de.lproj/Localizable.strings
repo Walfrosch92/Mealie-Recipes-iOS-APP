@@ -114,6 +114,11 @@
 "error_image_conversion" = "Bildkonvertierung fehlgeschlagen";
 "error_upload_failed" = "Upload fehlgeschlagen";
 "error_image_upload_failed" = "Bild-Upload fehlgeschlagen";
+"upload_failed" = "Upload fehlgeschlagen";
+"pdf_too_large" = "Die PDF-Datei ist zu groß.";
+"checking_permissions" = "Berechtigungen werden geprüft...";
+"select" = "Auswählen";
+"sync_changes_additions" = "Neu hinzugefügt";
 "error_missing_base_url" = "Server-URL oder Token fehlt.";
 "error_invalid_shopping_list_id" = "Ungültige Einkaufslisten-ID.";
 "leftover.invalid_recipe_id" = "Ungültige Rezept-ID";
