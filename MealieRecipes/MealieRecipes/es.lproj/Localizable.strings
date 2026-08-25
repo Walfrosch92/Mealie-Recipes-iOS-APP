@@ -62,6 +62,8 @@
 "server_url_field" = "URL del servidor";
 "token_field" = "Token de API";
 "household_field" = "Hogar";
+"header_name_field" = "Cabecera %d Nombre";
+"header_value_field" = "Cabecera %d Valor";
 "api_version_label" = "Versión API de Mealie";
 "header_name_placeholder" = "Nombre";
 "header_value_placeholder" = "Valor";

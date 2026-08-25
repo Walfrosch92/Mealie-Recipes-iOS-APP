@@ -61,7 +61,9 @@
 "household_placeholder" = "Family";
 "server_url_field" = "Server-URL";
 "token_field" = "API-Token";
-"household_field" = "Gospodarstwo domowe";
+"household_field" = "Haushalt";
+"header_name_field" = "Header %d Name";
+"header_value_field" = "Header %d Wert";
 "api_version_label" = "Mealie API-Version";
 "header_name_placeholder" = "Name";
 "header_value_placeholder" = "Wert";

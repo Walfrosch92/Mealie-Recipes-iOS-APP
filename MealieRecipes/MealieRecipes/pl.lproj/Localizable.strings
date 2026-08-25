@@ -63,6 +63,8 @@
 "server_url_field" = "URL serwera";
 "token_field" = "Token API";
 "household_field" = "Gospodarstwo domowe";
+"header_name_field" = "Nagłówek %d — nazwa";
+"header_value_field" = "Nagłówek %d — wartość";
 "api_version_label" = "Wersja API Mealie";
 "header_name_placeholder" = "Nazwa";
 "header_value_placeholder" = "Wartość";

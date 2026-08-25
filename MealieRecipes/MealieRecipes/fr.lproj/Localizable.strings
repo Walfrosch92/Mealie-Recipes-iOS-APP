@@ -62,6 +62,8 @@
 "server_url_field" = "URL du serveur";
 "token_field" = "Jeton API";
 "household_field" = "Foyer";
+"header_name_field" = "En-tête %d Nom";
+"header_value_field" = "En-tête %d Valeur";
 "api_version_label" = "Version API de Mealie";
 "header_name_placeholder" = "Nom";
 "header_value_placeholder" = "Valeur";

@@ -62,6 +62,8 @@
 "server_url_field" = "Server-URL";
 "token_field" = "API-token";
 "household_field" = "Huishouden";
+"header_name_field" = "Header %d Naam";
+"header_value_field" = "Header %d Waarde";
 "api_version_label" = "Mealie API-versie";
 "header_name_placeholder" = "Naam";
 "header_value_placeholder" = "Waarde";

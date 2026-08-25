@@ -207,7 +207,7 @@ struct SetupView: View {
                     title: LocalizedStringProvider.localized("household_field"),
                     text: $tempHouseholdId,
                     icon: "house.fill",
-                    placeholder: "Family"
+                    placeholder: LocalizedStringProvider.localized("household_placeholder")
                 )
             }
         }
@@ -349,14 +349,14 @@ struct SetupView: View {
             ForEach(1...3, id: \.self) { index in
                 HStack(spacing: 12) {
                     ModernInputField(
-                        title: "Header \(index) Name",
+                        title: String(format: LocalizedStringProvider.localized("header_name_field"), index),
                         text: binding(forHeaderKey: index),
                         icon: "tag.fill",
                         placeholder: LocalizedStringProvider.localized("header_name_placeholder")
                     )
                     
                     ModernInputField(
-                        title: "Header \(index) Value",
+                        title: String(format: LocalizedStringProvider.localized("header_value_field"), index),
                         text: binding(forHeaderValue: index),
                         icon: "equal.circle.fill",
                         placeholder: LocalizedStringProvider.localized("header_value_placeholder")
