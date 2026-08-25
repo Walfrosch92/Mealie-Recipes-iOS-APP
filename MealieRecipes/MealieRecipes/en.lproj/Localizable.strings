@@ -363,3 +363,11 @@
 "sort_date_oldest" = "Oldest First";
 "sort_prep_time_short" = "Shortest Preparation Time";
 "sort_prep_time_long" = "Longest Preparation Time";
+
+// MARK: - Additional keys (previously missing, referenced in code)
+"checking_permissions" = "Checking permissions...";
+"pdf_too_large" = "PDF file is too large.";
+"select" = "Select";
+"sync_changes_additions" = "Newly Added";
+"upload_failed" = "Upload failed";
+"reset_filter" = "Reset Filter";

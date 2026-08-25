@@ -133,7 +133,7 @@ struct SyncConflictComparisonRow: View {
 
             HStack {
                 VStack(alignment: .leading, spacing: 2) {
-                    Text("Local")
+                    Text(LocalizedStringProvider.localized("local_value"))
                         .font(.caption)
                         .foregroundColor(.secondary)
 
@@ -153,7 +153,7 @@ struct SyncConflictComparisonRow: View {
                 Spacer()
 
                 VStack(alignment: .trailing, spacing: 2) {
-                    Text("Server")
+                    Text(LocalizedStringProvider.localized("server_value"))
                         .font(.caption)
                         .foregroundColor(.secondary)
 

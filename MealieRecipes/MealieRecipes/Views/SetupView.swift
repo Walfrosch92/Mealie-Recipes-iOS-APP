@@ -48,6 +48,7 @@ struct SetupView: View {
     
     @State private var showLogAlert = false
     @State private var logAlertMessage: String = ""
+    @State private var logsWereCleared = false
     
     // Haptic Feedback
     private let hapticNotification = UINotificationFeedbackGenerator()
@@ -121,22 +122,22 @@ struct SetupView: View {
             } message: {
                 Text(LocalizedStringProvider.localized("reset_warning"))
             }
-            .alert("Logs (letzte 500)", isPresented: $showLogAlert) {
-                if logAlertMessage == "Alle Log-Einträge wurden gelöscht." {
-                    Button("OK", role: .cancel) { }
+            .alert(LocalizedStringProvider.localized("log_show_title"), isPresented: $showLogAlert) {
+                if logsWereCleared {
+                    Button(LocalizedStringProvider.localized("ok"), role: .cancel) { }
                 } else {
-                    Button("Kopieren", role: .none) {
+                    Button(LocalizedStringProvider.localized("log_copy"), role: .none) {
                         UIPasteboard.general.string = logAlertMessage
                         hapticNotification.notificationOccurred(.success)
                     }
-                    Button("Schließen", role: .cancel) { }
+                    Button(LocalizedStringProvider.localized("log_close"), role: .cancel) { }
                 }
             } message: {
-                if logAlertMessage == "Alle Log-Einträge wurden gelöscht." {
-                    Text(logAlertMessage)
+                if logsWereCleared {
+                    Text(LocalizedStringProvider.localized("log_cleared_message"))
                 } else {
                     ScrollView {
-                        Text(logAlertMessage.isEmpty ? "Keine Logs vorhanden" : logAlertMessage)
+                        Text(logAlertMessage.isEmpty ? LocalizedStringProvider.localized("log_empty") : logAlertMessage)
                             .font(.system(.caption, design: .monospaced))
                             .textSelection(.enabled)
                             .frame(maxWidth: .infinity, alignment: .leading)
@@ -169,7 +170,7 @@ struct SetupView: View {
                 .font(.title2)
                 .fontWeight(.bold)
             
-            Text("Verbinde dich mit deinem Mealie Server")
+            Text(LocalizedStringProvider.localized("welcome_subtitle"))
                 .font(.subheadline)
                 .foregroundColor(.secondary)
                 .multilineTextAlignment(.center)
@@ -199,7 +200,7 @@ struct SetupView: View {
                     title: "Token",
                     text: $tempToken,
                     icon: "key.fill",
-                    placeholder: "Dein API-Token"
+                    placeholder: LocalizedStringProvider.localized("token_placeholder")
                 )
                 
                 ModernInputField(
@@ -314,7 +315,7 @@ struct SetupView: View {
             VStack(spacing: 16) {
                 // API Version
                 VStack(alignment: .leading, spacing: 8) {
-                    Label("Mealie API-Version", systemImage: "server.rack")
+                    Label(LocalizedStringProvider.localized("api_version_label"), systemImage: "server.rack")
                         .font(.subheadline)
                         .foregroundColor(.secondary)
                     
@@ -351,14 +352,14 @@ struct SetupView: View {
                         title: "Header \(index) Name",
                         text: binding(forHeaderKey: index),
                         icon: "tag.fill",
-                        placeholder: "Name"
+                        placeholder: LocalizedStringProvider.localized("header_name_placeholder")
                     )
                     
                     ModernInputField(
                         title: "Header \(index) Value",
                         text: binding(forHeaderValue: index),
                         icon: "equal.circle.fill",
-                        placeholder: "Wert"
+                        placeholder: LocalizedStringProvider.localized("header_value_placeholder")
                     )
                 }
             }
@@ -494,7 +495,7 @@ struct SetupView: View {
                         .font(.title3)
                         .fontWeight(.semibold)
                 }
-                Text("Dateigröße")
+                Text(LocalizedStringProvider.localized("file_size"))
                     .font(.caption)
                     .foregroundColor(.secondary)
             }
@@ -580,7 +581,7 @@ struct SetupView: View {
                 .foregroundColor(.secondary)
             
             Menu {
-                ForEach(["de", "en", "fr", "es", "nl"], id: \.self) { code in
+                ForEach(["de", "en", "fr", "es", "nl", "pl"], id: \.self) { code in
                     Button {
                         withAnimation {
                             tempLanguage = code
@@ -754,6 +755,7 @@ struct SetupView: View {
         case "fr": return "🇫🇷"
         case "es": return "🇪🇸"
         case "nl": return "🇳🇱"
+        case "pl": return "🇵🇱"
         default: return "🌍"
         }
     }
@@ -828,6 +830,7 @@ struct SetupView: View {
         case "fr": return "Français"
         case "es": return "Español"
         case "nl": return "Dutch"
+        case "pl": return "Polski"
         default: return code
         }
     }
@@ -943,7 +946,8 @@ struct SetupView: View {
     /// Zeigt Logs in einer Preview an
     private func showLogsPreview() {
         let logs = LogManager.shared.getLogs()
-        logAlertMessage = logs.isEmpty ? "Keine Logs vorhanden" : logs
+        logAlertMessage = logs.isEmpty ? LocalizedStringProvider.localized("log_empty") : logs
+        logsWereCleared = false
         showLogAlert = true
     }
     
@@ -967,7 +971,8 @@ struct SetupView: View {
         
         // SwiftUI Alert statt UIKit (für bessere Integration)
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
-            logAlertMessage = "Alle Log-Einträge wurden gelöscht."
+            logAlertMessage = LocalizedStringProvider.localized("log_cleared_message")
+            logsWereCleared = true
             showLogAlert = true
         }
     }

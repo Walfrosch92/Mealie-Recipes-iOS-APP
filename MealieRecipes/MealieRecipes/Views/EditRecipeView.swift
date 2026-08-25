@@ -481,7 +481,7 @@ struct EditRecipeView: View {
                     .textFieldStyle(.roundedBorder)
                     .frame(width: 80)
                 
-                Text("min")
+                Text(LocalizedStringProvider.localized("min"))
                     .foregroundColor(.secondary)
                 
                 Spacer()

@@ -1,0 +1,375 @@
+/*
+  Localizable.strings (Polish)
+  MealieRecipes - Pełna lokalizacja
+  Utworzono: 2025-12-05
+  Zawiera wszystkie klucze z poprzednich wersji
+  Terminologia zgodna z oficjalną polską lokalizacją Mealie
+*/
+
+// MARK: - Nawigacja i ogólne
+"initial_setup" = "Konfiguracja początkowa";
+"settings" = "⚙️ Ustawienia";
+"cancel" = "Anuluj";
+"done" = "Gotowe";
+"ok" = "OK";
+"save" = "Zapisz";
+"save_and_start" = "Zapisz i uruchom";
+"save_changes" = "Zapisz zmiany";
+"reset_app" = "Resetuj aplikację";
+"reset" = "Resetuj";
+"confirm" = "Potwierdź";
+"back" = "Wstecz";
+"close" = "Zamknij";
+"edit" = "Edytuj";
+"delete" = "Usuń";
+"start" = "Zaczynajmy";
+"change" = "Zmień";
+"apply" = "Zastosuj";
+"minimize" = "Minimalizuj";
+"home" = "Strona główna";
+"select_option" = "Wybierz opcję:";
+"all" = "Wszystkie";
+"plan_meal" = "Zaplanuj";
+"continue" = "Dalej";
+"loading" = "Ładowanie...";
+"please_wait" = "Proszę czekać...";
+"share" = "Udostępnij";
+"copy" = "Kopiuj";
+"add" = "Dodaj";
+"remove" = "Usuń";
+"retry" = "Spróbuj ponownie";
+"dismiss" = "Zamknij";
+"select_all" = "Zaznacz wszystkie";
+"deselect_all" = "Odznacz wszystkie";
+
+// MARK: - Konfiguracja
+"send_optional_headers" = "Wysyłaj opcjonalne nagłówki";
+"language" = "Język";
+"confirm_reset" = "Zresetować aplikację?";
+"reset_warning" = "Spowoduje to zresetowanie wszystkich ustawień. Kontynuować?";
+"app_logo" = "Logo aplikacji";
+"show_recipe_images" = "Wyświetlać obrazy przepisów?";
+"show_recipe_images_description" = "Wyświetla obrazy na liście przepisów";
+"enable_logging" = "Włącz logowanie";
+"enable_logging_description" = "Zapisuje ostatnie 500 linii logów lokalnie";
+"icon_switch_not_supported" = "Zmiana ikony nie jest obsługiwana";
+"icon_switch_failed" = "Nie udało się zmienić ikony";
+"icon_switched_to" = "Ikona zmieniona na";
+"standard_icon" = "Standardowa";
+"welcome_subtitle" = "Połącz się z serwerem Mealie";
+"server_url_placeholder" = "https://mealie.example.com";
+"token_placeholder" = "Twój token API";
+"household_placeholder" = "Family";
+"api_version_label" = "Wersja API Mealie";
+"header_name_placeholder" = "Nazwa";
+"header_value_placeholder" = "Wartość";
+"file_size" = "Rozmiar pliku";
+"connection" = "Połączenie";
+"advanced_options" = "Opcje zaawansowane";
+"personalization" = "Personalizacja";
+"developer" = "Dla programistów";
+
+// MARK: - Logowanie
+"log_file_section" = "Plik logów (ostatnie 500 linii)";
+"log_entries" = "Wpisy";
+"log_last_500" = "Ostatnie 500";
+"log_empty" = "Puste";
+"log_show" = "Pokaż";
+"log_share" = "Udostępnij";
+"log_clear" = "Wyczyść";
+"log_show_title" = "Logi (ostatnie 500)";
+"log_copy" = "Kopiuj";
+"log_close" = "Zamknij";
+"log_cleared" = "Logi wyczyszczone";
+"log_cleared_message" = "Wszystkie wpisy logów zostały usunięte.";
+
+// MARK: - Główna nawigacja
+"show_recipes" = "📖 Pokaż przepisy";
+"shopping_list" = "🛒 Lista zakupów";
+"archived_lists" = "🗂️ Zarchiwizowane listy";
+"recipes" = "📖 Przepisy";
+"meal_plan" = "📅 Plan posiłków";
+"leftover.title" = "🥘 Wykorzystanie resztek";
+"section_shopping" = "Zakupy";
+"section_planning" = "Planowanie";
+"section_recipes" = "Przepisy";
+"section_other" = "Inne";
+
+// MARK: - Powitanie i ładowanie
+"welcome_title" = "Witaj w Mealie Recipes! 👋";
+"loading_shopping_list_id" = "Ładowanie listy zakupów...";
+"loading_recipes" = "Ładowanie przepisów...";
+"loading_recipe" = "Ładowanie przepisu...";
+"no_lists_loaded" = "Brak załadowanej listy";
+
+// MARK: - Komunikaty błędów
+"error" = "Błąd";
+"success" = "Sukces";
+"error_loading_recipes" = "Błąd: %@";
+"error_loading_recipe" = "Nie udało się załadować przepisu.";
+"invalid_recipe_id" = "Nieprawidłowe ID przepisu";
+"upload_error" = "Błąd";
+"upload_http_error" = "Przesyłanie pliku nie powiodło się — kod statusu %d";
+"error_invalid_json" = "Nieprawidłowa zawartość JSON";
+"error_payload_encoding" = "Błąd kodowania danych";
+"error_image_conversion" = "Konwersja obrazu nie powiodła się";
+"error_upload_failed" = "Przesyłanie nie powiodło się";
+"error_image_upload_failed" = "Przesłanie obrazu nie powiodło się";
+"error_missing_base_url" = "Brak adresu URL serwera lub tokena.";
+"error_invalid_shopping_list_id" = "Nieprawidłowe ID listy zakupów.";
+"leftover.invalid_recipe_id" = "Nieprawidłowe ID przepisu";
+"saveErrorTitle" = "Błąd";
+"saveErrorMessage" = "Wystąpił błąd podczas zapisywania.";
+"validationError" = "Błąd walidacji";
+"errorEmptyTitle" = "Podaj tytuł";
+"errorNoIngredients" = "Dodaj co najmniej jeden składnik";
+"errorNoInstructions" = "Dodaj co najmniej jeden krok";
+"errorEmptyInstructions" = "Niektóre kroki są puste. Uzupełnij je lub usuń puste.";
+"noInternetConnection" = "Brak połączenia z internetem. Sprawdź ustawienia sieci.";
+"uploadTimeout" = "Przekroczono czas przesyłania. Spróbuj ponownie.";
+"reminders_access_denied" = "Brak dostępu do przypomnień. Zezwól na to w Ustawieniach.";
+"reminders_calendar_not_found" = "Nie udało się znaleźć wybranej listy przypomnień.";
+"postimport_failed_generic" = "Dalsze przetwarzanie przypomnień nie powiodło się dla niektórych elementów.";
+"sync_alert_title" = "Wykryto zmiany offline";
+"sync_alert_message" = "Czy chcesz teraz zsynchronizować zmiany listy zakupów z serwerem?";
+
+// MARK: - Timer
+"timer_title" = "Timer";
+"duration" = "Czas trwania: %d minut";
+"new_duration" = "Nowy czas trwania: %d minut";
+"remaining_time" = "Pozostało: %d minut %d sekund";
+"display_always_on" = "Utrzymuj ekran włączony";
+"start_timer" = "Uruchom timer";
+"running_timer" = "Timer działa: %dm %ds";
+"timer_finished" = "Timer zakończony";
+"timer_live_activity_title" = "Timer przepisu";
+"timer_remaining_time" = "Pozostały czas";
+"timer_completed" = "Timer minął!";
+"timer_recipe_timer" = "Timer przepisu";
+
+// MARK: - Lista zakupów
+"select_shopping_list" = "Wybierz listę zakupów";
+"unlabeled_category" = "Bez kategorii";
+"add_success" = "Dodano ✅";
+"list_done_title" = "Lista ukończona 🎉";
+"list_done_message" = "Lista zakupów została zarchiwizowana.";
+"complete_shopping_confirm" = "Potwierdź";
+"completed_category_title" = "Ukończone";
+"add_item_placeholder" = "Nowy element…";
+"complete_shopping" = "Zakończ zakupy";
+"shopping_done_title" = "Zakupy ukończone";
+"shopping_done_subtitle" = "Wszystko w koszyku! 🎉";
+"change_category" = "Zmień kategorię";
+"select_category" = "Wybierz kategorię";
+"delete_item_title" = "Usuń element";
+"delete_item_confirm" = "Czy na pewno chcesz usunąć ten element?";
+"note_saved" = "Zapisano pomyślnie";
+"note_placeholder" = "Wpisz tekst elementu...";
+"edit_note" = "Edytuj tekst elementu";
+"sync_now" = "Synchronizuj teraz";
+"reorder_categories" = "Sortuj kategorie";
+"list_done_title" = "Zakończyć zakupy?";
+"list_done_message" = "Czy chcesz oznaczyć wszystkie elementy jako ukończone?";
+
+// MARK: - Widok szczegółów przepisu
+"details" = "Szczegóły";
+"add_all_ingredients" = "Dodaj wszystkie składniki";
+"add_selected_ingredients" = "Dodaj tylko wybrane składniki";
+"add_ingredients_title" = "Składniki dodane";
+"add_ingredients_message" = "Składniki zostały pomyślnie dodane do listy zakupów.";
+"ingredients" = "Składniki";
+"adjust_quantity" = "Dostosuj mnożnik ilości dla tego przepisu:";
+"instructions" = "Instrukcje";
+"recipe_details" = "Szczegóły przepisu";
+"preparation_time" = "Czas przyrządzania";
+"prep_time" = "Przyrządzanie";
+"cook_time" = "Czas gotowania";
+"total_time_label" = "Czas całkowity";
+"total_time" = "Czas całkowity";
+"rating" = "Ocena";
+"servings_label" = "Porcje";
+"servings" = "Porcje";
+"share_recipe" = "Udostępnij przepis";
+"add_to_shopping_list" = "Dodaj do listy zakupów";
+"view_original" = "Pokaż oryginał";
+
+// MARK: - Lista przepisów i wyszukiwanie
+"search_recipe" = "Szukaj przepisu";
+"search_recipes" = "Szukaj przepisów...";
+"no_recipes_found" = "Nie znaleziono przepisów";
+"all_categories" = "Wszystkie kategorie";
+"no_recipes_for_category" = "Nie znaleziono przepisów w tej kategorii.";
+"refresh_recipes" = "Aktualizuj przepisy";
+"filter_by_category" = "Filtruj według kategorii";
+"filter_by_tag" = "Filtruj według tagu";
+"sort_by" = "Sortuj według";
+"sort_by_name" = "Nazwa";
+"sort_by_date" = "Data";
+"sort_rating_highest" = "Najwyższa ocena";
+"sort_rating_lowest" = "Najniższa ocena";
+"selected_recipe" = "Wybrany przepis";
+
+// MARK: - Edycja przepisu
+"editRecipe" = "Edytuj przepis";
+"title" = "Tytuł";
+"saving" = "Zapisywanie...";
+"changeImageWarningTitle" = "Zmienić obraz?";
+"changeImageWarningMessage" = "Zmiana obrazu nadpisze bieżące zdjęcie przepisu.";
+"unsavedChanges" = "Niezapisane zmiany";
+"unsavedChangesMessage" = "Masz niezapisane zmiany. Czy chcesz je odrzucić?";
+"discard" = "Odrzuć";
+"keepEditing" = "Kontynuuj edycję";
+"organization" = "Tagi i kategorie";
+"tags" = "Tagi";
+"categories" = "Kategorie";
+"servingsHint" = "np. 4";
+"portionUnit" = "Porcje";
+"min" = "min";
+"step" = "Krok";
+"noneSelected" = "Brak zaznaczenia";
+"saveSuccessTitle" = "Zapisano!";
+"recipeUpdatedSuccessfully" = "Przepis został pomyślnie zaktualizowany!";
+"imageUploadFailed" = "Przesłanie obrazu nie powiodło się";
+"parsed" = "Strukturalne";
+"mixed" = "Mieszane";
+"quantity" = "Ilość";
+"unit" = "Jednostka";
+
+// MARK: - Sekcja składników (edycja)
+"noIngredientsYet" = "Brak składników";
+"tapBelowToAdd" = "Dotknij poniżej, aby dodać";
+"addIngredient" = "Dodaj składnik";
+"addIngredientAccessibility" = "Dodaj składnik";
+"tapToAddNewIngredient" = "Dotknij, aby dodać nowy składnik";
+"ingredient" = "Składnik";
+
+// MARK: - Sekcja instrukcji (edycja)
+"noInstructionsYet" = "Brak kroków";
+"stepPlaceholder" = "Opisz ten krok...";
+"addStep" = "Dodaj krok";
+"addStepAccessibility" = "Dodaj krok";
+"tapToAddNewStep" = "Dotknij, aby dodać nowy krok";
+
+// MARK: - Przesyłanie przepisu
+"recipe_upload" = "➕ Dodaj przepis";
+"image_placeholder_url" = "https://example.com/recipe";
+"uploading_image" = "Przesyłanie obrazu...";
+"enter_recipe_url_hint" = "Wpisz adres URL przepisu, aby zapisać go na serwerze";
+"upload_result" = "Wynik przesyłania";
+"image_load_error" = "❌ Nie udało się załadować pliku.";
+"image_conversion_error" = "Konwersja obrazu do przesłania nie powiodła się.";
+"image_upload_hint" = "Alternatywnie możesz przesłać zdjęcie lub PDF przepisu. Zostanie automatycznie przeanalizowane i zaimportowane przy użyciu AI.";
+"openai_hint_title" = "Informacje o analizie pliku";
+"openai_hint_message" = "Analiza przepisu odbywa się przez API OpenAI. Upewnij się, że klucz API jest skonfigurowany w ustawieniach serwera Mealie.";
+"upload_from_url" = "Importuj przepis z adresu URL";
+"upload_url_section_title" = "Importuj z adresu URL przepisu";
+"upload_image_section_title" = "Importuj przez OpenAI z pliku";
+"upload_recipe" = "Prześlij nowy przepis";
+"select_image" = "Wybierz obraz";
+"select_pdf" = "Wybierz PDF";
+"upload_success" = "Przesyłanie zakończone pomyślnie!";
+"create_recipe" = "Utwórz przepis";
+
+// MARK: - Plan posiłków
+"meal_plan" = "📅 Plan posiłków";
+"no_meals" = "Brak zaplanowanych posiłków";
+"breakfast" = "Śniadanie";
+"lunch" = "Obiad";
+"dinner" = "Kolacja";
+"select_slot" = "Posiłek";
+"select_date" = "Data";
+"add_custom_meal" = "Dodaj własny posiłek";
+"confirm_meal" = "Dodaj do planu posiłków";
+"no_recipe_linked" = "Brak powiązanego przepisu";
+"unknown_entry" = "Nieznany wpis";
+"today" = "Dziś";
+"current_week" = "Bieżący tydzień";
+"entries_in_other_weeks" = "Istnieją wpisy w innych tygodniach";
+"available_weeks" = "Dostępne tygodnie:";
+"entry_singular" = "wpis";
+"entries_plural" = "wpisy";
+
+// MARK: - Wybór daty (plan posiłków)
+"select_week" = "Wybierz tydzień";
+"select_week_description" = "Wybierz datę, aby przejść do odpowiedniego tygodnia";
+"selected_week" = "Wybrany tydzień";
+"go_to_week" = "Przejdź do tygodnia";
+"jump_to_date" = "Przejdź do daty";
+"week_abbreviation" = "Tydzień";
+
+// MARK: - Resztki
+"leftover.ingredients" = "Składniki w domu";
+"leftover.enter_ingredient" = "Wpisz składnik";
+"leftover.suggestions" = "Sugestie przepisów";
+"leftover.no_matches" = "Nie znaleziono pasujących przepisów.";
+"leftover.matching_percent" = "%d%% dopasowania (%d/%d)";
+"leftover.description" = "Wpisz dostępne składniki, aby znaleźć odpowiednie przepisy i optymalnie wykorzystać resztki.";
+"leftover.refresh" = "Aktualizuj przepisy";
+"leftover.refresh_info_title" = "Co robi ta funkcja?";
+"leftover.refresh_info" = "Ta funkcja ponownie pobiera wszystkie przepisy z serwera i aktualizuje lokalny cache. Dzięki temu nowo dodane lub zmodyfikowane przepisy są dostępne do dopasowywania składników. W zależności od liczby przepisów może to potrwać kilka sekund.";
+
+// MARK: - Archiwizacja i usuwanie
+"delete_all" = "Usuń wszystkie";
+"delete_confirm_title" = "Usunąć wszystkie zarchiwizowane listy?";
+"delete_confirm_message" = "Tej czynności nie można cofnąć.";
+"confirm_delete_title" = "Usunąć przepis?";
+"confirm_delete_message" = "Czy na pewno chcesz usunąć ten przepis?";
+"list_title" = "Lista %d";
+
+// MARK: - Import z przypomnień
+"import_from_reminders" = "Importuj z przypomnień";
+"import_now" = "Importuj teraz";
+"reminders_choose_list" = "Wybierz listę przypomnień";
+"reminders_list" = "Lista";
+"this_is_grocery_list" = "To jest lista zakupów";
+"this_is_grocery_list_help" = "Zaznacz, jeśli jest to lista zakupów Apple";
+"importing_from_reminders" = "Importowanie z przypomnień...";
+"postimport_hint" = "Dotyczy tylko niedawno zaimportowanych przypomnień.";
+"postimport_action" = "Po imporcie:";
+"postimport_leave" = "Pozostaw";
+"postimport_complete" = "Ukończ";
+"postimport_complete_delete" = "Ukończ i usuń";
+"import_reminders" = "Importuj przypomnienia";
+"select_list" = "Wybierz listę";
+"import_selected" = "Importuj zaznaczone";
+"import_all" = "Importuj wszystkie";
+"import_in_progress" = "Importowanie...";
+"import_success" = "Import zakończony pomyślnie";
+"import_error" = "Import nie powiódł się";
+"no_reminders_found" = "Nie znaleziono przypomnień";
+
+// MARK: - Synchronizacja i rozwiązywanie konfliktów
+"sync_alert_yes" = "Tak";
+"sync_alert_no" = "Nie";
+"sync_changes_title" = "Zmiany offline";
+"sync_changes_checked" = "Zaznaczone";
+"sync_changes_quantity" = "Ilość";
+"sync_changes_category" = "Kategoria";
+"local_value" = "Lokalnie";
+"server_value" = "Serwer";
+"sync_changes_additions_en" = "Nowo dodane";
+"keep_local" = "Zachowaj lokalne";
+"use_new" = "Użyj nowych";
+
+// MARK: - Pola i elementy interfejsu
+"addNewPlaceholder" = "Nowy wpis…";
+"addIngredient" = "Dodaj składnik";
+"addStep" = "Dodaj krok";
+
+
+// MARK: - Sortowanie przepisów
+"sort_recipes" = "Sortuj przepisy";
+"sort_name_a_z" = "Nazwa: A → Z";
+"sort_name_z_a" = "Nazwa: Z → A";
+"sort_date_newest" = "Najnowsze pierwsze";
+"sort_date_oldest" = "Najstarsze pierwsze";
+"sort_prep_time_short" = "Najkrótszy czas przyrządzania";
+"sort_prep_time_long" = "Najdłuższy czas przyrządzania";
+
+// MARK: - Dodatkowe klucze (brakujące w poprzednich wersjach)
+"checking_permissions" = "Sprawdzanie uprawnień...";
+"pdf_too_large" = "Plik PDF jest za duży.";
+"select" = "Wybierz";
+"sync_changes_additions" = "Nowo dodane";
+"upload_failed" = "Przesyłanie nie powiodło się";
+"reset_filter" = "Resetuj filtr";

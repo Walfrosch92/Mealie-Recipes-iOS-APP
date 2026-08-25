@@ -366,3 +366,11 @@
 "sort_date_oldest" = "Älteste zuerst";
 "sort_prep_time_short" = "Kürzeste Zubereitungszeit";
 "sort_prep_time_long" = "Längste Zubereitungszeit";
+
+// MARK: - Zusätzliche Keys (zuvor fehlend, im Code referenziert)
+"checking_permissions" = "Berechtigungen werden geprüft...";
+"pdf_too_large" = "PDF-Datei ist zu groß.";
+"select" = "Auswählen";
+"sync_changes_additions" = "Neu hinzugefügt";
+"upload_failed" = "Upload fehlgeschlagen";
+"reset_filter" = "Filter zurücksetzen";

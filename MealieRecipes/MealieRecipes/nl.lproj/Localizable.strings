@@ -363,3 +363,12 @@
 "sort_date_oldest" = "Oudste eerst";
 "sort_prep_time_short" = "Kortste bereidingstijd";
 "sort_prep_time_long" = "Langste bereidingstijd";
+
+// MARK: - Extra sleutels (eerder ontbrekend, gerefereerd in code)
+"checking_permissions" = "Machtigingen controleren...";
+"pdf_too_large" = "PDF-bestand is te groot.";
+"select" = "Selecteren";
+"sync_changes_additions" = "Nieuw toegevoegd";
+"upload_failed" = "Upload mislukt";
+"reset_filter" = "Filter resetten";
+

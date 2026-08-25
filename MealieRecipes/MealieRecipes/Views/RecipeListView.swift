@@ -300,7 +300,7 @@ struct RecipeListView: View {
                                     selectedTags.removeAll()
                                 }
                             } label: {
-                                Label("Filter zurücksetzen", systemImage: "arrow.counterclockwise")
+                                Label(LocalizedStringProvider.localized("reset_filter"), systemImage: "arrow.counterclockwise")
                                     .font(.subheadline)
                                     .padding(.horizontal, 16)
                                     .padding(.vertical, 10)

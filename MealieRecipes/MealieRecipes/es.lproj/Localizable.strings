@@ -363,3 +363,12 @@
 "sort_date_oldest" = "Más antiguas primero";
 "sort_prep_time_short" = "Menor tiempo de preparación";
 "sort_prep_time_long" = "Mayor tiempo de preparación";
+
+// MARK: - Claves adicionales (antes faltantes, referenciadas en el código)
+"checking_permissions" = "Comprobando permisos...";
+"pdf_too_large" = "El archivo PDF es demasiado grande.";
+"select" = "Seleccionar";
+"sync_changes_additions" = "Añadidos nuevos";
+"upload_failed" = "Subida fallida";
+"reset_filter" = "Restablecer filtro";
+

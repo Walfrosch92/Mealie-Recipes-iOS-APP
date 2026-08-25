@@ -363,3 +363,12 @@
 "sort_date_oldest" = "Plus anciennes d'abord";
 "sort_prep_time_short" = "Temps de préparation le plus court";
 "sort_prep_time_long" = "Temps de préparation le plus long";
+
+// MARK: - Clés supplémentaires (auparavant manquantes, référencées dans le code)
+"checking_permissions" = "Vérification des autorisations...";
+"pdf_too_large" = "Le fichier PDF est trop volumineux.";
+"select" = "Sélectionner";
+"sync_changes_additions" = "Nouvellement ajoutés";
+"upload_failed" = "Échec du téléversement";
+"reset_filter" = "Réinitialiser le filtre";
+
