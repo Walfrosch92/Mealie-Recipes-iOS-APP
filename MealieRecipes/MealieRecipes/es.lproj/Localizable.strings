@@ -59,6 +59,9 @@
 "server_url_placeholder" = "https://mealie.example.com";
 "token_placeholder" = "Tu token API";
 "household_placeholder" = "Familia";
+"server_url_field" = "URL del servidor";
+"token_field" = "Token de API";
+"household_field" = "Hogar";
 "api_version_label" = "Versión API de Mealie";
 "header_name_placeholder" = "Nombre";
 "header_value_placeholder" = "Valor";

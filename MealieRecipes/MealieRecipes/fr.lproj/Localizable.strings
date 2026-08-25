@@ -59,6 +59,9 @@
 "server_url_placeholder" = "https://mealie.example.com";
 "token_placeholder" = "Votre jeton API";
 "household_placeholder" = "Famille";
+"server_url_field" = "URL du serveur";
+"token_field" = "Jeton API";
+"household_field" = "Foyer";
 "api_version_label" = "Version API de Mealie";
 "header_name_placeholder" = "Nom";
 "header_value_placeholder" = "Valeur";

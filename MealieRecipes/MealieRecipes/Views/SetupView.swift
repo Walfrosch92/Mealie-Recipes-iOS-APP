@@ -188,7 +188,7 @@ struct SetupView: View {
         ) {
             VStack(spacing: 16) {
                 ModernInputField(
-                    title: "Server URL",
+                    title: LocalizedStringProvider.localized("server_url_field"),
                     text: $tempServerURL,
                     icon: "link",
                     placeholder: "https://mealie.example.com"
@@ -197,14 +197,14 @@ struct SetupView: View {
                 .textContentType(.URL)
                 
                 ModernSecureField(
-                    title: "Token",
+                    title: LocalizedStringProvider.localized("token_field"),
                     text: $tempToken,
                     icon: "key.fill",
                     placeholder: LocalizedStringProvider.localized("token_placeholder")
                 )
                 
                 ModernInputField(
-                    title: "Household",
+                    title: LocalizedStringProvider.localized("household_field"),
                     text: $tempHouseholdId,
                     icon: "house.fill",
                     placeholder: "Family"

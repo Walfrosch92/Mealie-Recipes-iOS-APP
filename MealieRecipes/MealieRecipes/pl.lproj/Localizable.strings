@@ -1,9 +1,9 @@
 /*
   Localizable.strings (Polish)
   MealieRecipes - Pełna lokalizacja
-  Utworzono: 2025-12-05
   Zawiera wszystkie klucze z poprzednich wersji
   Terminologia zgodna z oficjalną polską lokalizacją Mealie
+  (mealie-recipes/mealie, frontend/app/lang/messages/pl-PL.json)
 */
 
 // MARK: - Nawigacja i ogólne
@@ -59,7 +59,10 @@
 "welcome_subtitle" = "Połącz się z serwerem Mealie";
 "server_url_placeholder" = "https://mealie.example.com";
 "token_placeholder" = "Twój token API";
-"household_placeholder" = "Family";
+"household_placeholder" = "Rodzina";
+"server_url_field" = "URL serwera";
+"token_field" = "Token API";
+"household_field" = "Gospodarstwo domowe";
 "api_version_label" = "Wersja API Mealie";
 "header_name_placeholder" = "Nazwa";
 "header_value_placeholder" = "Wartość";
